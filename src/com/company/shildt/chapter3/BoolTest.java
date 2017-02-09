@@ -1,0 +1,24 @@
+package company.shildt.chapter3;
+
+/**
+ * Created by user on 05.01.2017.
+ */
+
+public class BoolTest {
+    public static void main(String[] args) {
+
+        boolean b;
+
+        b = false;
+        System.out.println("b равно: " + b);
+
+        b = true;
+        System.out.println("b равно: " + b);
+
+        if(b) System.out.println("Этот код выполняется");
+        b = false;
+        if(b) System.out.println("Этот код не выполняется");
+
+        System.out.println("Результат сравнения (10 > 9) равно: " + (10 > 9));
+    }
+}
