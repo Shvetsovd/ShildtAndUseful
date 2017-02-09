@@ -8,5 +8,8 @@ public class ABC {
         int a = 0;
     }
 
+    public void meth() {
+
+    }
 }
 
