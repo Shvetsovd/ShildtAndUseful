@@ -5,8 +5,10 @@ package company;
  */
 public class ABC {
     public static void main(String[] args) {
-        int a = 0;
+        double d = 0.0;
     }
+    public void meth(){
 
+    }
 }
 
