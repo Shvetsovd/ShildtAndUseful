@@ -5,6 +5,7 @@ public class TestMyExceptions {
         try {
 
             throw new MyModuleAException("Арифметическая ошибка", new ArithmeticException("Деление на ноль!"));
+            //throw new MyModuleAException("Арифметическая ошибка");
             //throw new MyModuleAException();
 
         } catch (MyApplicationException e) {

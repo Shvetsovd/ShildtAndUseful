@@ -28,6 +28,31 @@ public final class MyModuleAException extends MyApplicationException {
 
     @Override
     public String toString() {
-        return moduleName + ": " + super.getMessage();
+
+        String msg = super.getMessage();
+        Throwable cause = this.getCause();
+
+        StringBuilder descr = new StringBuilder(moduleName);
+        descr.append(": ");
+
+        if (msg != null) {
+            descr.append(msg);
+            descr.append('.');
+        }
+        else {
+            descr.append(" error. ");
+        }
+
+        if (cause != null){
+            descr.append("\nПричина --> ");
+            descr.append(cause.getClass());
+
+            if (cause.getMessage() != null){
+                descr.append(": ");
+                descr.append(cause.getMessage());
+            }
+        }
+
+        return descr.toString();
     }
 }
