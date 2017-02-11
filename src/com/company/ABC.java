@@ -15,7 +15,7 @@ public class ABC {
         try {
             throw new MyModuleAException();
         } catch (MyApplicationException e) {
-            e.printStackTrace();
+            e.getErrorModuleName();
         }
 
     }

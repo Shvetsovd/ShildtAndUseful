@@ -5,7 +5,7 @@ package company.myUseful.myException;
  */
 public abstract class MyApplicationException extends Exception {
 
-    protected abstract String getErrorModuleName();
+    public abstract String getErrorModuleName();
 
     protected MyApplicationException() {
         super();

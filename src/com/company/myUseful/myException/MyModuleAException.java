@@ -21,7 +21,7 @@ public final class MyModuleAException extends MyApplicationException {
     }
 
     @Override
-    protected String getErrorModuleName() {
+    public String getErrorModuleName() {
         return moduleName;
     }
 }
