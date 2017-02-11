@@ -16,6 +16,10 @@ public abstract class MyApplicationException extends Exception {
 
     }
 
+    protected MyApplicationException(Throwable cause) {
+        super(cause);
+    }
+
     protected MyApplicationException(String msg, Throwable cause) {
         super(msg, cause);
 
