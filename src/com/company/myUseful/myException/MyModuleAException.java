@@ -5,8 +5,8 @@ package company.myUseful.myException;
  */
 public final class MyModuleAException extends MyApplicationException {
 
-
     private final static String moduleName = "Module A";
+
 
     public MyModuleAException() {
         super();
@@ -20,8 +20,14 @@ public final class MyModuleAException extends MyApplicationException {
         super(msg, cause);
     }
 
+
     @Override
     public String getErrorModuleName() {
         return moduleName;
+    }
+
+    @Override
+    public String toString() {
+        return moduleName + ": " + super.getMessage();
     }
 }
