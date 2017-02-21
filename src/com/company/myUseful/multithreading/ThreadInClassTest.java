@@ -17,6 +17,7 @@ class ThreadInClass {
             }
         });
         thread.start();
+        thread.destroy();
     }
 
     void meth() {

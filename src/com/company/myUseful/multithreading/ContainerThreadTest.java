@@ -9,26 +9,28 @@ class Call {
     }
 }
 
-class Caller {
-    Call callObj;
+class Caller implements Runnable{
+    Call target;
     Thread thread;
     String msg;
 
-    public Caller(String msg) {
+    public Caller(Call target, String msg) {
+        this.target = target;
         this.msg = msg;
-        thread = new Thread(new Runnable() {
-            @Override
-            public synchronized void run() {
-                callObj = new Call();
-                callObj.meth(msg);
-            }
-        });
+        this.thread = new Thread(this);
         thread.start();
+    }
+
+    @Override
+    public void run() {
+        synchronized (target){
+            target.meth(msg);
+        }
     }
 }
 
 public class ContainerThreadTest {
     public static void main(String[] args) {
-        Caller caller = new Caller("выполняется в новом потоке");
+        Caller caller = new Caller(new Call(), "выполняется в новом потоке");
     }
 }

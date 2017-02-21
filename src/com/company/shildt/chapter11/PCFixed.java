@@ -3,6 +3,17 @@ package company.shildt.chapter11;
 /**
  * Created by dmitry on 19.02.17.
  */
+
+public class PCFixed {
+    public static void main(String[] args) {
+        Q q = new Q();
+        new Producer(q);
+        new Consumer(q);
+
+        //System.out.println("Для выхода нажмите Ctrl-C");
+    }
+}
+
 class Q {
     int n;
     boolean valueSet = false;
@@ -80,12 +91,4 @@ class Consumer implements Runnable {
     }
 }
 
-public class PCFixed {
-    public static void main(String[] args) {
-        Q q = new Q();
-        new Producer(q);
-        new Consumer(q);
 
-        //System.out.println("Для выхода нажмите Ctrl-C");
-    }
-}
