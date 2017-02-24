@@ -1,11 +1,9 @@
-package company.shildt.chapter12;
+package company.shildt.chapter12.enums;
 
 /**
  * Created by dmitry on 24.02.17.
  */
-enum Apple {
-    Jonathan, GoldenDel, RedDel, Winesap, Cortland
-}
+
 
 public class EnumDemo {
     public static void main(String[] args) {
