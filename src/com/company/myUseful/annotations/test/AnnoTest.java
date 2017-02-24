@@ -1,22 +1,22 @@
 package company.myUseful.annotations.test;
 
 import company.myUseful.annotations.CODE;
-import company.myUseful.annotations.devstatus;
+import company.myUseful.annotations.Devstatus;
 
 /**
  * Created by dmitry on 24.02.17.
  */
-@devstatus(CODE.DEBUG)
-public class AnnoTest {
+@Devstatus(CODE.DEBUG)
+class AnnoTest {
     public static void main(String[] args) {
 
     }
-    @devstatus(CODE.DEBUG)
+    @Devstatus(CODE.DEBUG)
     void meth1(){
 
     }
 
-    @devstatus(CODE.RELEASE)
+    @Devstatus(CODE.RELEASE)
     void meth2(){
         System.out.println();
     }
