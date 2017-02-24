@@ -13,7 +13,7 @@ public class Main {
                         {7, 8}
                 }
         };
-	// write your code here
+	// write your status here
 
         /*int[][][] arr2 = {
                 {
