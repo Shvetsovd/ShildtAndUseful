@@ -18,16 +18,17 @@ public class wordChains {
 
         ArrayList<String> chain = new ArrayList<String>();
 
-        long start = System.currentTimeMillis();
+        final long start = System.currentTimeMillis();
 
         while (true) {
             if (isValidChain(chain, words)) break;
             chain = getChain((ArrayList<String>) words.clone());
+            System.out.println(chain);
         }
 
-        long finish = System.currentTimeMillis();
+        final long finish = System.currentTimeMillis();
 
-        System.out.println(chain);
+        System.out.println("\n" + chain);
         System.out.println("Searching time = " + (finish - start));
     }
 
