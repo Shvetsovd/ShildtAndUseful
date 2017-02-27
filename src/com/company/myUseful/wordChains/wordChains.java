@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * Created by OPER on 27.02.2017.
  */
 
+
 public class wordChains {
     public static void main(String[] args) {
 
