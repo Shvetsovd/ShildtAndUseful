@@ -8,7 +8,11 @@ import company.myUseful.myException.MyModuleAException;
  */
 public class ABC {
     public static void main(String[] args) {
-        int a = 0;
+
+        int x = 0;
+
+        x = ++x + ++x;
+        System.out.println(x);
     }
 
     public void meth() {
