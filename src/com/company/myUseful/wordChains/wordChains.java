@@ -11,8 +11,8 @@ public class wordChains {
     public static void main(String[] args) {
 
         ArrayList<String> words = new ArrayList<String>();
-        String data = "Киев Нью-Йорк Амстердам Вена Мельбурн";
-        //String data = "Zitomir Moskva Achinsk Voronez Krasnoyarsk Kostroma Vilnus Sorsk Kishinev Abakan Kiev Norilsk Rovno Orel Lipesk Anapa";
+        //String data = "Киев Нью-Йорк Амстердам Вена Мельбурн";
+        String data = "Zitomir Moskva Achinsk Voronez Krasnoyarsk Kostroma Vilnus Sorsk Kishinev Abakan Kiev Norilsk Rovno Orel Lipesk Anapa";
         //String data = "ab ca ad bd db bc ba";
         words = loadDataToList(data);
 
@@ -23,7 +23,7 @@ public class wordChains {
         while (true) {
             if (isValidChain(chain, words)) break;
             chain = getChain((ArrayList<String>) words.clone());
-            System.out.println(chain);
+            //System.out.println(chain);
         }
 
         final long finish = System.currentTimeMillis();
