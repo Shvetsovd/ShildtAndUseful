@@ -58,7 +58,7 @@ public class Useful {
         dir.getCanonicalPath();
 
         if(dir.isDirectory()){
-            String[] fileInDir = getDir(dir);
+            String[] fileInDir = getDirContent(dir);
 
             for (String f : fileInDir) System.out.println(f);
         }*/
