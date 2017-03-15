@@ -5,9 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static company.myUseful.filesystem.FileManager.copyFile;
-import static company.myUseful.filesystem.FileManager.getDirContent;
-import static company.myUseful.filesystem.FileManager.getDirFullContent;
+import static company.myUseful.filesystem.FileManager.*;
 
 /**
  * Created by OPER on 15.03.2017.
@@ -15,9 +13,47 @@ import static company.myUseful.filesystem.FileManager.getDirFullContent;
 public class FileManagerTest {
 
     public static void main(String[] args) {
-        //getDirContent_Test("C:/!BCP");
-        //getDirFullContent_Test("C:/!BCP/123");
-        copyFile_Test("C:/Temp/1.exe", "D:/Temp/2.exe");
+        //getDirContent_Test("D:/");
+        //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+        //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
+        //copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                //getDirContent_Test("D:\\");
+                //getDirContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+
+                //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+
+                //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
+
+                //copyDir_Test("C:/Temp/", "D:/Temp/");
+                //copyDir_Test("C:/!BCP/123/", "D:/Temp/");
+            }
+        });
+        thread.start();
+        try {
+            thread.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private static void copyDir_Test(String srcDir, String dstDir) {
+        try {
+            System.out.println("Start copying...\n" + srcDir + " ---> " + dstDir + "\n");
+            long start = System.currentTimeMillis();
+
+            copyDir(srcDir, dstDir);
+
+            long end = System.currentTimeMillis();
+
+            System.out.println("\nFinished in " + (end - start) + "ms");
+        } catch (IOException e) {
+            System.out.println("Error copy " + srcDir + " to " + dstDir + ":\n\t--->" + e.getMessage());
+        }
     }
 
     private static void getDirFullContent_Test(String s) {
@@ -29,7 +65,7 @@ public class FileManagerTest {
                 if (file.isFile()) {
                     System.out.print("\t" + file.getName());
                 } else {
-                    System.out.print(c);
+                    System.out.print("<--- " + c + " --->");
                 }
                 System.out.println();
             }
@@ -41,7 +77,7 @@ public class FileManagerTest {
     private static void getDirContent_Test(String s) {
         try {
             ArrayList<String> files = getDirContent(s);
-            System.out.println(s + " contains:");
+            System.out.println(s + " --->");
             for (String file : files) {
                 System.out.println("\t" + file);
             }
@@ -52,15 +88,16 @@ public class FileManagerTest {
 
     private static void copyFile_Test(String src, String dst) {
         try {
+            System.out.println("Copying...\n" + src + " ---> " + dst);
             long start = System.currentTimeMillis();
 
             copyFile(src, dst);
 
             long stop = System.currentTimeMillis();
 
-            System.out.println("Copy time: " + (stop - start) + "ms");
+            System.out.println("\nFinished in " + (stop - start) + "ms");
         } catch (IOException e) {
-            System.out.println("Error copy " + src + " to " + dst + ": " + e.getMessage());
+            System.out.println("Error copy " + src + " to " + dst + ":\n\t--->" + e.getMessage());
         }
     }
 

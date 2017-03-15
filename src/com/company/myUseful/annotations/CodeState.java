@@ -16,6 +16,6 @@ import java.lang.annotation.Target;
         ElementType.CONSTRUCTOR,
         ElementType.METHOD})
 
-public @interface Devstatus {
+public @interface CodeState {
     CODE value();
 }
