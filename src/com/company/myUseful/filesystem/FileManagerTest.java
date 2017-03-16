@@ -22,14 +22,16 @@ public class FileManagerTest {
             @Override
             public void run() {
                 //getDirContent_Test("D:\\");
-                //getDirContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+                //getDirContent_Test("D:\\!ХАМЕЛЕОН\\");
 
-                //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+                //getDirFullContent_Test("D:\\MUSIC\\");
 
-                //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
+                //copyFile_Test("D:\\VIDEO\\vinylshakers-One night in Bangkok360.mp4", "E:/Temp/vinylshakers-One night in Bangkok360.mp4");
 
-                //copyDir_Test("C:/Temp/", "D:/Temp/");
-                //copyDir_Test("C:/!BCP/123/", "D:/Temp/");
+                //copyFile_Test("D:\\VIDEO\\InterStellar.avi", "E:/Temp/InterStellar.avi");
+
+                //copyDir_Test("D:\\Test\\", "E:/Temp/Test");
+                //copyDir_Test("D:\\Учебля\\", "E:/Temp/");
             }
         });
         thread.start();
@@ -69,7 +71,7 @@ public class FileManagerTest {
                 }
                 System.out.println();
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -81,7 +83,7 @@ public class FileManagerTest {
             for (String file : files) {
                 System.out.println("\t" + file);
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             System.out.println(e.getMessage());
         }
     }

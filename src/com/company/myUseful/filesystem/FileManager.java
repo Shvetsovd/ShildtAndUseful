@@ -16,31 +16,35 @@ public class FileManager {
 
     /**
      * Method getDirContent(...) returns an array of strings naming the files and directories in the
-     * directory denoted by this abstract pathname.
+     * directory dirPath.
      */
     @CodeState(CODE.RELEASE)
-    public static ArrayList<String> getDirContent(String dirPath) throws FileNotFoundException {
-        File rootDir = new File(dirPath);
+    public static ArrayList<String>
+    getDirContent(String dirPath) throws IOException {
+        File rootDir = new File(dirPath).getCanonicalFile();
 
         if (rootDir.isDirectory() && rootDir.exists()) {
             return new ArrayList<String>(Arrays.asList(rootDir.list()));
         } else {
-            throw new FileNotFoundException(dirPath + " is not exist");
+            throw new FileNotFoundException(dirPath + " is not directory");
         }
     }
 
     /**
-     * Method getDirFullContent(...) returns an array of strings naming the files and directories
+     * Method getDirFullContent(...) returns an ArrayList of strings naming the files and directories
      * recursive including subdirectories content
      */
     @CodeState(CODE.RELEASE)
-    public static ArrayList<String> getDirFullContent(String dirPath) throws FileNotFoundException {
-        return getDirFullContent(dirPath, new ArrayList<String>());
+    public static ArrayList<String>
+    getDirFullContent(String dirPath) throws IOException {
+        return getDirFullContentRecursive(dirPath, new ArrayList<String>());
     }
 
     @CodeState(CODE.RELEASE)
-    private static ArrayList<String> getDirFullContent(String dirPath, ArrayList<String> dirContent) throws FileNotFoundException {
-        File root = new File(dirPath);
+    private static ArrayList<String>
+    getDirFullContentRecursive(String dirPath, ArrayList<String> dirContent) throws IOException {
+        File root = new File(dirPath).getCanonicalFile();
+
         if (!root.exists()) {
             throw new FileNotFoundException(dirPath + " no such file or directory");
         }
@@ -51,7 +55,7 @@ public class FileManager {
 
             File[] dirFiles = root.listFiles();
             for (File file : dirFiles) {
-                getDirFullContent(file.toString(), dirContent);
+                getDirFullContentRecursive(file.toString(), dirContent);
             }
         }
 
@@ -61,42 +65,36 @@ public class FileManager {
     /**
      * Method copyDir(...) copy all content from source to destination directories
      */
-    @CodeState(CODE.DEVELOP)
+    @CodeState(CODE.DEBUG)
     public static void copyDir(String srcDir, String toDir) throws IOException {
 
-        File srcDirPath = new File(srcDir);
-        File dstDirPath = new File(toDir);
+        File src = new File(srcDir).getCanonicalFile();
+        File dst = new File(toDir).getCanonicalFile();
 
         // Check paths
-        checkDirectoryForExisting(srcDirPath);
-        checkDirectoryForExisting(dstDirPath);
+        checkDirectoryForExisting(src);
+        checkDirectoryForExisting(dst);
 
         // Recursive copy dir
-        File[] srcFiles = srcDirPath.listFiles();
+        File[] srcFiles = src.listFiles();
         for (File file : srcFiles) {
-            if (file.exists()) {
 
-                final String path = dstDirPath + File.separator + file.getName();
+            File newFile = new File(dst, file.getName());
 
-                if (file.isDirectory()) {
+            if (file.isDirectory()) {
+                System.out.println("Creating dir:>\t" + newFile);
 
-                    System.out.println("Creating dir:>\t" + path);
+                newFile.mkdir();
+                copyDir(file.toString(), newFile.toString());
+            }
+            if (file.isFile()) {
+                System.out.println("Copying file:\t" + newFile);
 
-                    File newDir = new File(path);
-                    newDir.mkdir();
-                    copyDir(file.toString(), newDir.toString());
-
-                }
-                if (file.isFile()) {
-
-                    System.out.println("Copying file:\t" + path);
-
-                    copyFile(file.toString(), path);
-                }
+                copyFile(file.toString(), newFile.toString());
             }
         }
-    }
 
+    }
 
     /**
      * Method copyFile(...) copy file from src to dst with user defined buffer size.
@@ -105,10 +103,10 @@ public class FileManager {
     @CodeState(CODE.RELEASE)
     public static void copyFile(String src, String dst, int bufSize) throws IOException {
 
-        File srcFile = new File(src);
+        File srcFile = new File(src).getCanonicalFile();
         File srcDir = new File(srcFile.getParent());
 
-        File dstFile = new File(dst);
+        File dstFile = new File(dst).getCanonicalFile();
         File dstDir = new File(dstFile.getParent());
 
         // Check src and dst path
@@ -126,12 +124,9 @@ public class FileManager {
                 fout.write(buf, 0, count);
             }
             fout.flush();
-        } catch (IOException e) {
-            throw e;
         }
 
     }
-
 
     /**
      * Method copyFile(...) file from src to dst with default buffer size.
