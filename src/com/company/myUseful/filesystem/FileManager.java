@@ -1,12 +1,14 @@
 package company.myUseful.filesystem;
 
-import company.myUseful.annotations.CODE;
-import company.myUseful.annotations.CodeState;
+import company.myUseful.annotations.*;
+
 
 import java.io.*;
 import java.nio.file.FileAlreadyExistsException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 /**
  * Created by shvetsovd on 15.03.2017.
@@ -37,16 +39,18 @@ public class FileManager {
     @CodeState(CODE.RELEASE)
     public static ArrayList<String>
     getDirFullContent(String dirPath) throws IOException {
-        return getDirFullContentRecursive(dirPath, new ArrayList<String>());
+        return getDirFullContentRecursive(
+                new File(dirPath).getCanonicalFile(),
+                new ArrayList<String>()
+        );
     }
 
     @CodeState(CODE.RELEASE)
     private static ArrayList<String>
-    getDirFullContentRecursive(String dirPath, ArrayList<String> dirContent) throws IOException {
-        File root = new File(dirPath).getCanonicalFile();
+    getDirFullContentRecursive(File root, ArrayList<String> dirContent) throws IOException {
 
         if (!root.exists()) {
-            throw new FileNotFoundException(dirPath + " no such file or directory");
+            throw new FileNotFoundException(root + " no such file or directory");
         }
 
         dirContent.add(root.toString());
@@ -55,7 +59,7 @@ public class FileManager {
 
             File[] dirFiles = root.listFiles();
             for (File file : dirFiles) {
-                getDirFullContentRecursive(file.toString(), dirContent);
+                getDirFullContentRecursive(file, dirContent);
             }
         }
 
@@ -65,7 +69,7 @@ public class FileManager {
     /**
      * Method copyDir(...) copy all content from source to destination directories
      */
-    @CodeState(CODE.DEBUG)
+    @CodeState(CODE.RELEASE)
     public static void copyDir(String srcDir, String toDir) throws IOException {
 
         File src = new File(srcDir).getCanonicalFile();
@@ -76,24 +80,30 @@ public class FileManager {
         checkDirectoryForExisting(dst);
 
         // Recursive copy dir
-        File[] srcFiles = src.listFiles();
-        for (File file : srcFiles) {
+        copyDirRecursive(src, dst);
 
-            File newFile = new File(dst, file.getName());
+    }
 
-            if (file.isDirectory()) {
-                System.out.println("Creating dir:>\t" + newFile);
+    @CodeState(CODE.RELEASE)
+    private static void copyDirRecursive(File src, File dst) throws IOException {
+        File newFile = new File(dst, src.getName());
 
-                newFile.mkdir();
-                copyDir(file.toString(), newFile.toString());
-            }
-            if (file.isFile()) {
-                System.out.println("Copying file:\t" + newFile);
+        if (src.isFile()) {
 
-                copyFile(file.toString(), newFile.toString());
-            }
+            System.out.println("Copying file:\t" + newFile);
+            copyFile(src.toString(), newFile.toString());
+
         }
+        if (src.isDirectory()) {
 
+            System.out.println("Creating dir:>\t" + newFile);
+            newFile.mkdir();
+            File[] files = src.listFiles();
+            for (File file : files) {
+                copyDirRecursive(file, newFile);
+            }
+
+        }
     }
 
     /**
@@ -102,7 +112,9 @@ public class FileManager {
      */
     @CodeState(CODE.RELEASE)
     public static void copyFile(String src, String dst, int bufSize) throws IOException {
-
+        if (bufSize < 1) {
+            throw new IllegalArgumentException("Buffer size must be positive");
+        }
         File srcFile = new File(src).getCanonicalFile();
         File srcDir = new File(srcFile.getParent());
 
@@ -141,24 +153,76 @@ public class FileManager {
      * Method zipFile(...) deflate a source file to zip-file with destination name.
      */
     @CodeState(CODE.DEVELOP)
-    public static void zipFile(String src, String zipFile) throws IOException {
-        File srcFile = new File(src);
-        File srcFolder = new File(srcFile.getParent());
+    public static void zipFile(String src, String zipName, int bufSize) throws IOException {
 
-        File dstFile = new File(zipFile);
-        File dstFolder = new File(dstFile.getParent());
+        if (bufSize < 1) {
+            throw new IllegalArgumentException("Buffer size must be positive");
+        }
 
+        File srcFile = new File(src).getCanonicalFile();
+        File dstFile = new File(zipName).getCanonicalFile();
 
+        checkFileForExisting(srcFile);
+        checkFileForNonExisting(dstFile);
+        checkDirectoryForExisting(dstFile.getParentFile());
+
+        try (ZipOutputStream zout = new ZipOutputStream(new BufferedOutputStream(new FileOutputStream(dstFile)))) {
+            addToZip(srcFile, zout, bufSize);
+        }
     }
 
-    @CodeState(CODE.DEBUG)
-    private static void checkFileForExisting(File file) throws FileNotFoundException {
-        if (!file.isFile() || !file.exists()) {
-            throw new FileNotFoundException(file + ": File is not exist");
+    @CodeState(CODE.DEVELOP)
+    public static void zipFile(String src, String zipName) throws IOException {
+        zipFile(src, zipName, DEFAULT_BUFFER_SIZE);
+    }
+
+    @CodeState(CODE.DEVELOP)
+    private static void addToZip(File src, ZipOutputStream zout, int bufSize) throws IOException {
+        try (BufferedInputStream fin = new BufferedInputStream(new FileInputStream(src))) {
+
+            ZipEntry NewEntry = new ZipEntry(src.getName());
+            zout.putNextEntry(NewEntry);
+
+            byte[] buf = new byte[bufSize];
+            int count = 0;
+
+            while ((count = fin.read(buf)) != -1) {
+                zout.write(buf, 0, count);
+            }
+            zout.flush();
         }
     }
 
     @CodeState(CODE.DEBUG)
+    public static void deleteFile(String filePath) throws IOException {
+        deleteDir(filePath);
+    }
+
+    @CodeState(CODE.DEBUG)
+    public static void deleteDir(String dir) throws IOException {
+        File file = new File(dir).getCanonicalFile();
+        if (!file.exists()) {
+            throw new IOException(file + " no such file or directory");
+        }
+        if (file.isDirectory()) {
+            File[] subFiles = file.listFiles();
+            for (File f : subFiles) {
+                deleteDir(f.toString());
+            }
+        }
+        if (!file.delete()) {
+            throw new IOException("Error deleting " + file.toString() + ". Check permissions.");
+        }
+    }
+
+    @CodeState(CODE.RELEASE)
+    private static void checkFileForExisting(File file) throws FileNotFoundException {
+        if (!file.isFile() || !file.exists()) {
+            throw new FileNotFoundException(file + ": file does not exist");
+        }
+    }
+
+    @CodeState(CODE.RELEASE)
     private static void checkFileForNonExisting(File file) throws FileAlreadyExistsException, FileNotFoundException {
 
         if (file.exists()) {
@@ -166,7 +230,7 @@ public class FileManager {
         }
     }
 
-    @CodeState(CODE.DEBUG)
+    @CodeState(CODE.RELEASE)
     private static void checkDirectoryForExisting(File dir) throws FileNotFoundException {
 
         if (!dir.isDirectory() || !dir.exists()) {

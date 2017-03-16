@@ -16,7 +16,12 @@ public class FileManagerTest {
         //getDirContent_Test("D:/");
         //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
         //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
-        //copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+        copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+        //zipFile_Test("C:/Temp/info.log", "D:/Temp/info.zip");
+        //deleteFile_Test("D:/Temp/info.zip");
+        //deleteDir_Test("D:/Temp/info.zip");
+        //deleteDir_Test("D:/Temp/123");
+
 
         Thread thread = new Thread(new Runnable() {
             @Override
@@ -41,6 +46,54 @@ public class FileManagerTest {
             e.printStackTrace();
         }
 
+    }
+
+    private static void deleteDir_Test(String dirPath) {
+
+
+        try {
+            System.out.println("Deleting directory\n" + "\t" + dirPath);
+            long start = System.currentTimeMillis();
+            deleteDir(dirPath);
+            long end = System.currentTimeMillis();
+            System.out.println("\nFinished in " + (end - start) + "ms");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    private static void deleteFile_Test(String filePath) {
+        try {
+            System.out.println("Deleting file\n" + "\t" + filePath);
+
+            long start = System.currentTimeMillis();
+
+            deleteFile(filePath);
+
+            long end = System.currentTimeMillis();
+
+            System.out.println("\nFinished in " + (end - start) + "ms");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void zipFile_Test(String src, String zipName) {
+        try {
+            System.out.println("Start zipping file\n" +
+                    "\t" + src + " ---> " + zipName);
+            long start = System.currentTimeMillis();
+
+            zipFile(src, zipName);
+
+            long end = System.currentTimeMillis();
+
+            System.out.println("\nFinished in " + (end - start) + "ms");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void copyDir_Test(String srcDir, String dstDir) {
