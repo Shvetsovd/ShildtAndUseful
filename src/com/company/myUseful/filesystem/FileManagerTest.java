@@ -17,16 +17,17 @@ public class FileManagerTest {
         //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
 
         //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
-        //copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+        copyDir_Test("c:/!BCP/123/", "D:/Temp/");
 
         //zipFile_Test("C:/Temp/info.log", "D:/Temp/info.zip");
         //zipDir_Test("C:/Temp", "D:/Temp/2.zip");
         //zipDir_Test("C:/!BCP/123/", "D:/Temp/1.zip");
 
+        //unzip_Test("D:/Temp/info.zip", "C:/Temp/unzip");
+        //unzip_Test("D:/Temp/1.zip", "C:/Temp/unzip");
+
         //deleteFile_Test("D:/Temp/1.zip");
         //deleteDir_Test("D:/Temp/123/");
-
-
 
 
         Thread thread = new Thread(new Runnable() {
@@ -54,6 +55,21 @@ public class FileManagerTest {
 
     }
 
+    private static void unzip_Test(String zipPath, String dstDir){
+        try {
+            System.out.println("Start zip-extracting\n" +
+                    "\t" + zipPath + " ---> " + dstDir + "\n");
+            long start = System.currentTimeMillis();
+
+            unzip(zipPath, dstDir);
+
+            long end = System.currentTimeMillis();
+
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     private static void zipDir_Test(String dirPath, String zipName) {
         try {
             System.out.println("Start zipping directory:\n"

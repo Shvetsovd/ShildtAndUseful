@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
 /**
@@ -101,12 +102,14 @@ public class FileManager {
                 copyDirRecursive(file, newFile);
             }
 
+            //!
             System.out.println("< /" + newFile.getName() + " >");
         }
 
         if (src.isFile()) {
 
-            System.out.println("\t" + newFile.getName());
+            //!
+            System.out.println("|\t" + newFile.getName());
             copyFile(src.toString(), newFile.toString());
 
         }
@@ -120,7 +123,7 @@ public class FileManager {
     @CodeState(CODE.RELEASE)
     public static void copyFile(String src, String dst, int bufSize) throws IOException {
 
-        checkBufSize(bufSize);
+        checkBuf(bufSize);
 
         File srcFile = new File(src).getCanonicalFile();
         File srcDir = new File(srcFile.getParent());
@@ -162,7 +165,7 @@ public class FileManager {
     @CodeState(CODE.RELEASE)
     public static void zipFile(String src, String zipName, int bufSize) throws IOException {
 
-        checkBufSize(bufSize);
+        checkBuf(bufSize);
 
         File srcFile = new File(src).getCanonicalFile();
         File dstFile = new File(zipName).getCanonicalFile();
@@ -172,10 +175,9 @@ public class FileManager {
         checkDirectoryForExisting(dstFile.getParentFile());
 
         try (ZipOutputStream zout = new ZipOutputStream(new BufferedOutputStream(new FileOutputStream(dstFile)))) {
-            addFileToZip(srcFile, zout, bufSize, null);
+            addFileToZip(srcFile, zout, null, bufSize);
         }
     }
-
 
     @CodeState(CODE.RELEASE)
     public static void zipFile(String src, String zipName) throws IOException {
@@ -185,7 +187,7 @@ public class FileManager {
     @CodeState(CODE.RELEASE)
     public static void zipDir(String src, String zipName, int bufSize) throws IOException {
 
-        checkBufSize(bufSize);
+        checkBuf(bufSize);
 
         File srcDir = new File(src).getCanonicalFile();
         File zipFile = new File(zipName).getCanonicalFile();
@@ -203,6 +205,11 @@ public class FileManager {
 
     }
 
+    @CodeState(CODE.RELEASE)
+    public static void zipDir(String src, String zipName) throws IOException {
+        zipDir(src, zipName, DEFAULT_BUFFER_SIZE);
+    }
+
     @CodeState(CODE.DEBUG_BETA)
     private static void zipDirRecursive(final File root, File src, ZipOutputStream zout, int bufSize) throws IOException {
         if (src.isDirectory()) {
@@ -213,6 +220,7 @@ public class FileManager {
             for (File file : srcFiles) {
                 zipDirRecursive(root, file, zout, bufSize);
             }
+            //!
             System.out.println("< /" + src.getName() + " >");
 
         } else {
@@ -222,24 +230,20 @@ public class FileManager {
 
             ZipEntry zipEntry = new ZipEntry(zipPath.toString());
 
-            System.out.println("\t" + src.getName());
+            //!
+            System.out.println("|\t" + src.getName());
 
-            addFileToZip(src, zout, bufSize, zipEntry);
+            addFileToZip(src, zout, zipEntry, bufSize);
         }
 
-    }
 
-    @CodeState(CODE.RELEASE)
-    public static void zipDir(String src, String zipName) throws IOException {
-        zipDir(src, zipName, DEFAULT_BUFFER_SIZE);
     }
-
 
     @CodeState(CODE.RELEASE)
     private static void addFileToZip(File src,
                                      @NotNull ZipOutputStream zout,
-                                     int bufSize,
-                                     @Nullable ZipEntry zipEntry) throws IOException {
+                                     @Nullable ZipEntry zipEntry,
+                                     int bufSize) throws IOException {
 
         try (BufferedInputStream fin = new BufferedInputStream(new FileInputStream(src))) {
 
@@ -256,6 +260,75 @@ public class FileManager {
             }
             zout.flush();
         }
+    }
+
+    @CodeState(CODE.DEBUG)
+    public static void unzip(String zipPath, String dstDir, int bufSize) throws IOException {
+
+        checkBuf(bufSize);
+
+        File zipFile = new File(zipPath).getCanonicalFile();
+        File dst = new File(dstDir, getNameWithoutExt(zipFile, ".zip"));
+
+        checkFileForExisting(zipFile);
+        checkDirectoryForExisting(dst.getParentFile());
+
+        try (ZipInputStream zin =
+                     new ZipInputStream(
+                             new BufferedInputStream(
+                                     new FileInputStream(zipFile)));
+
+        ) {
+            unzipFile(dst, zin, bufSize);
+        }
+
+    }
+
+    @CodeState(CODE.DEBUG)
+    private static String getNameWithoutExt(File zipFile, String ext) {
+        String file = zipFile.getName();
+        if (!file.endsWith(ext)) {
+            throw new IllegalArgumentException(zipFile.toString() + " incorrect extension");
+        }
+        return file.substring(0, file.lastIndexOf('.'));
+
+    }
+
+    @CodeState(CODE.DEBUG)
+    private static void unzipFile(File dst,
+                                  @NotNull ZipInputStream zin,
+                                  int bufSize) throws IOException {
+
+        ZipEntry entry = zin.getNextEntry();
+        if (entry == null) {
+            return;
+        }
+        File dstFile = new File(dst, entry.getName());
+        File dstFolder = new File(dstFile.getParent());
+        if (!dstFolder.exists()) {
+            dstFolder.mkdirs();
+        }
+
+        //!
+        System.out.println("unzip ->\t" + dstFile);
+
+        try (BufferedOutputStream fout =
+                     new BufferedOutputStream(
+                             new FileOutputStream(dstFile))) {
+            int count;
+            byte[] buf = new byte[bufSize];
+
+            while ((count = zin.read(buf)) != -1) {
+                fout.write(buf, 0, count);
+            }
+
+            fout.flush();
+        }
+        unzipFile(dst, zin, bufSize);
+    }
+
+    public static void unzip(String zipPath, String dstDir) throws IOException {
+        unzip(zipPath, dstDir, DEFAULT_BUFFER_SIZE);
     }
 
     @CodeState(CODE.RELEASE)
@@ -310,7 +383,7 @@ public class FileManager {
     }
 
     @CodeState(CODE.RELEASE)
-    private static void checkBufSize(int bufSize) {
+    private static void checkBuf(int bufSize) {
         if (bufSize < 1) {
             throw new IllegalArgumentException("Buffer size must be positive");
         }
