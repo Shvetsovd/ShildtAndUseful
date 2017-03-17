@@ -15,12 +15,18 @@ public class FileManagerTest {
     public static void main(String[] args) {
         //getDirContent_Test("D:/");
         //getDirFullContent_Test("D:\\!ХАМЕЛЕОН\\3. МАКЕТЫ\\");
+
         //copyFile_Test("C:/Temp/PhotoshopCS5.exe", "D:/Temp/PhotoshopCS5.exe");
-        copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+        //copyDir_Test("c:/!BCP/123/", "D:/Temp/");
+
         //zipFile_Test("C:/Temp/info.log", "D:/Temp/info.zip");
-        //deleteFile_Test("D:/Temp/info.zip");
-        //deleteDir_Test("D:/Temp/info.zip");
-        //deleteDir_Test("D:/Temp/123");
+        //zipDir_Test("C:/Temp", "D:/Temp/2.zip");
+        //zipDir_Test("C:/!BCP/123/", "D:/Temp/1.zip");
+
+        //deleteFile_Test("D:/Temp/1.zip");
+        //deleteDir_Test("D:/Temp/123/");
+
+
 
 
         Thread thread = new Thread(new Runnable() {
@@ -48,6 +54,21 @@ public class FileManagerTest {
 
     }
 
+    private static void zipDir_Test(String dirPath, String zipName) {
+        try {
+            System.out.println("Start zipping directory:\n"
+                    + "\t" + dirPath + "   --->   " + zipName + "\n");
+
+            long start = System.currentTimeMillis();
+            zipDir(dirPath, zipName);
+            long end = System.currentTimeMillis();
+
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static void deleteDir_Test(String dirPath) {
 
 
@@ -56,7 +77,7 @@ public class FileManagerTest {
             long start = System.currentTimeMillis();
             deleteDir(dirPath);
             long end = System.currentTimeMillis();
-            System.out.println("\nFinished in " + (end - start) + "ms");
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -74,7 +95,7 @@ public class FileManagerTest {
 
             long end = System.currentTimeMillis();
 
-            System.out.println("\nFinished in " + (end - start) + "ms");
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -90,7 +111,7 @@ public class FileManagerTest {
 
             long end = System.currentTimeMillis();
 
-            System.out.println("\nFinished in " + (end - start) + "ms");
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -105,7 +126,7 @@ public class FileManagerTest {
 
             long end = System.currentTimeMillis();
 
-            System.out.println("\nFinished in " + (end - start) + "ms");
+            System.out.println("\nFinished in " + (end - start) + "ms\n---");
         } catch (IOException e) {
             System.out.println("Error copy " + srcDir + " to " + dstDir + ":\n\t--->" + e.getMessage());
         }
@@ -150,7 +171,7 @@ public class FileManagerTest {
 
             long stop = System.currentTimeMillis();
 
-            System.out.println("\nFinished in " + (stop - start) + "ms");
+            System.out.println("\nFinished in " + (stop - start) + "ms\n---");
         } catch (IOException e) {
             System.out.println("Error copy " + src + " to " + dst + ":\n\t--->" + e.getMessage());
         }
