@@ -93,7 +93,6 @@ public class FileManager {
         File newFile = new File(dst, src.getName());
 
         if (src.isDirectory()) {
-
             System.out.println("< " + newFile.getName() + " >");
 
             newFile.mkdir();
@@ -137,8 +136,12 @@ public class FileManager {
         checkDirectoryForExisting(dstDir);
 
         // Copy files
-        try (BufferedInputStream fin = new BufferedInputStream(new FileInputStream(srcFile), bufSize);
-             BufferedOutputStream fout = new BufferedOutputStream(new FileOutputStream(dstFile), bufSize)) {
+        try (BufferedInputStream fin =
+                     new BufferedInputStream(
+                             new FileInputStream(srcFile), bufSize);
+             BufferedOutputStream fout =
+                     new BufferedOutputStream(
+                             new FileOutputStream(dstFile), bufSize)) {
 
             byte[] buf = new byte[bufSize];
             int count;
@@ -147,7 +150,6 @@ public class FileManager {
             }
             fout.flush();
         }
-
     }
 
     /**
@@ -211,7 +213,10 @@ public class FileManager {
     }
 
     @CodeState(CODE.DEBUG_BETA)
-    private static void zipDirRecursive(final File root, File src, ZipOutputStream zout, int bufSize) throws IOException {
+    private static void zipDirRecursive(final File root,
+                                        File src,
+                                        @NotNull ZipOutputStream zout,
+                                        int bufSize) throws IOException {
         if (src.isDirectory()) {
             System.out.println("< " + src.getName() + " >");
 
@@ -219,10 +224,10 @@ public class FileManager {
 
             for (File file : srcFiles) {
                 zipDirRecursive(root, file, zout, bufSize);
+
             }
             //!
             System.out.println("< /" + src.getName() + " >");
-
         } else {
             Path file = Paths.get(src.toString());
             Path dir = Paths.get(root.getParent());
@@ -235,8 +240,6 @@ public class FileManager {
 
             addFileToZip(src, zout, zipEntry, bufSize);
         }
-
-
     }
 
     @CodeState(CODE.RELEASE)
@@ -245,7 +248,8 @@ public class FileManager {
                                      @Nullable ZipEntry zipEntry,
                                      int bufSize) throws IOException {
 
-        try (BufferedInputStream fin = new BufferedInputStream(new FileInputStream(src))) {
+        try (BufferedInputStream fin =
+                     new BufferedInputStream(new FileInputStream(src))) {
 
             if (zipEntry == null) {
                 zipEntry = new ZipEntry(src.getName());
@@ -259,6 +263,8 @@ public class FileManager {
                 zout.write(buf, 0, count);
             }
             zout.flush();
+        } catch (IOException e){
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
