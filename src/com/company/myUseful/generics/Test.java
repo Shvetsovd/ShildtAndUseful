@@ -18,7 +18,9 @@ public class Test {
         listNumber.add(new Integer(10));
         listNumber.add(new Double(3.14));
         Number num = listNumber.get(0);
-        //Integer i = listNumber.get(0);   //- err
+
+        Integer i = (Integer) listNumber.get(0);
+        //Integer j = listNumber.get(0);  //- err
         //Double d = listNumber.get(1);   // - err
 
     }
