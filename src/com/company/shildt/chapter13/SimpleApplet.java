@@ -1,4 +1,4 @@
-//package company.shildt.chapter13;
+package company.shildt.chapter13;//package company.shildt.chapter13;
 
 import java.applet.Applet;
 import java.awt.*;

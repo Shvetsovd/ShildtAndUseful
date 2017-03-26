@@ -77,7 +77,7 @@ class Test4 {
 
         //---
 
-        Object[] objarr = new Object[10];
+/*        Object[] objarr = new Object[10];
 
 
         objarr[0] = 0.5F;
@@ -92,7 +92,18 @@ class Test4 {
         objarr[0] = 1;
         objarr[1] = "str";
         //Integer i = "str";
-        printArrayClasses(objarr);
+        printArrayClasses(objarr);*/
+
+        //---
+
+        Number nums[] = new Number[10];
+        nums[0] = new Integer(10);
+        //nums[1] = "123"; //Compile Error
+        Object objs[] = nums;
+        //objs[1] = "123"; //compile ok, but runtime exception (ArrayStoreException)
+
+        //Integer ings[] = nums; //Compile error
+
 
         //---
 

@@ -1,5 +1,8 @@
 package company.shildt.chapter14;
 
+import company.javaNotes.Interface;
+import company.shildt.chapter4.IncDec;
+
 /**
  * Created by OPER on 24.03.2017.
  */
@@ -18,7 +21,6 @@ class Gen2<T, V> extends Gen<T> {
 public class HierDemo {
     public static void main(String[] args) {
         Gen2<String, Integer> x = new Gen2<>("Значение равно: ", 99);
-
         System.out.print(x.getob());
         System.out.print(x.getOb2());
     }
