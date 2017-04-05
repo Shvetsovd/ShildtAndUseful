@@ -15,7 +15,7 @@ public class Tmp {
         List rawList;
         rawList = numList;
         rawList.add(1, "123"); //Compile ok, but not right
-        Number num = numList.get(1); //ClassCastException
+        //Number num = numList.get(1); //ClassCastException
 
         numList = rawList;
         //numList.add(3, new File("/home/dmitry")); //Compile error (only Numbers we can add by using numList
