@@ -23,8 +23,8 @@ class NewThread1 implements Runnable {
             System.out.println(name + ": " + i);
             try {
                 Thread.sleep(200);
-                synchronized (this){
-                    while (suspendFlag){
+                synchronized (this) {
+                    while (suspendFlag) {
                         wait();
                     }
                 }
@@ -35,11 +35,11 @@ class NewThread1 implements Runnable {
         System.out.println(name + " завершен");
     }
 
-    synchronized void mySuspend(){
+    synchronized void mySuspend() {
         suspendFlag = true;
     }
 
-    synchronized void myResume(){
+    synchronized void myResume() {
         suspendFlag = false;
         notify();
     }
