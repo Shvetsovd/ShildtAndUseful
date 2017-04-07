@@ -1,11 +1,6 @@
 package company.myUseful.idea;
 
-
-import com.sun.istack.internal.NotNull;
-import com.sun.xml.internal.stream.util.ThreadLocalBufferAllocator;
-
 import java.util.Arrays;
-import java.util.Iterator;
 
 public class Test {
     public static void main(String[] args) {
@@ -13,15 +8,13 @@ public class Test {
         showThreadName(Thread.currentThread());
         System.out.println(Arrays.toString(values));
 
-        inNewThread(() -> System.out.println(average(values)));
-    }
+        new Thread(() -> {
+            showThreadName(Thread.currentThread());
+            System.out.println(average(values));
 
-    private static Thread inNewThread(@NotNull Runnable code) {
-        Thread t = new Thread(code);
-        t.start();
-        return t;
-    }
+        }).start();
 
+    }
 
     private static void showThreadName(Thread thread) {
         System.out.print(thread.getName() + ":\t\t");
@@ -29,13 +22,19 @@ public class Test {
 
     private static double average(int[] values) {
         double sum = 0.0;
-
         for (int i = 0; i < values.length; i++) {
             sum += values[i];
 
         }
+        sum = 0.0;
+        for (int i = values.length - 1; i >= 0; i--) {
+            sum += values[i];
 
-
+        }
+        sum = 0.0;
+        for (int value : values) {
+            sum += value;
+        }
         return sum / values.length;
     }
 }
