@@ -12,6 +12,9 @@ import java.util.List;
 // TODO: 07.04.2017 Add reflection for inner classes and interfaces
 public class ReflectionClassParser {
     public static String[] parse(@NotNull Class<?> className) {
+        if (className == null) {
+            return null;
+        }
         List<String> classInfo = new ArrayList<>();
 
         getTitleClassInfo(className, classInfo);
@@ -33,20 +36,48 @@ public class ReflectionClassParser {
         return classInfo.toArray(new String[classInfo.size()]);
     }
 
+    public static String[] getInheritSequence(Class<?> className){
+        if (className == null) {
+            return null;
+        }
+        return getInheritSequenceRecurse(className).split(" ");
+    }
+
+    private static String getInheritSequenceRecurse(Class<?> className){
+
+        StringBuilder clName = new StringBuilder(className.getSimpleName() + " ");
+        Class<?> superClass = className.getSuperclass();
+        if (superClass != null) {
+            clName.append(getInheritSequenceRecurse(superClass));
+        }
+        return clName.toString().trim();
+    }
+
     private static void getTitleClassInfo(@NotNull Class<?> target, List<String> classInfo) {
-        classInfo.add(getModifiersInfo(target.getModifiers()));
+        StringBuilder titleString = new StringBuilder();
+        titleString.append(getModifiersInfo(target.getModifiers()));
 
         if (target.isInterface()) {
-            classInfo.set(0, classInfo.get(0) + "interface ");
+            titleString.append("interface ");
         } else {
-            classInfo.set(0, classInfo.get(0) + "interface ");
+            titleString.append("class ");
         }
-        classInfo.set(0, classInfo.get(0) + target.getSimpleName());
+        titleString.append(target.getSimpleName());
 
         Class<?> superclass = target.getSuperclass();
         if ((superclass) != null) {
-            classInfo.set(0, classInfo.get(0) + " extends " + superclass.getSimpleName());
+            titleString.append(" extends " + superclass.getSimpleName());
         }
+
+        Class<?>[] interfaces = target.getInterfaces();
+        if (interfaces.length != 0) {
+            titleString.append(" implements");
+            for (Class<?> anInterface : interfaces) {
+                titleString.append(" " + anInterface.getSimpleName() + ",");
+            }
+            titleString.deleteCharAt(titleString.length() - 1);
+        }
+        classInfo.add(titleString.toString());
     }
 
     private static void getFieldsInfo(String startStr, Class<?> target, List<String> classInfo) {
