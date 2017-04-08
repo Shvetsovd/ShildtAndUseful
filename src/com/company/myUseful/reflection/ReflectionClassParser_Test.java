@@ -20,7 +20,7 @@ import java.util.zip.ZipOutputStream;
  */
 public class ReflectionClassParser_Test {
     public static void main(String[] args) {
-        Class<?> className = StringTokenizer.class;
+        Class<?> className = ZipOutputStream.class;
 
         printInheritInfo(className);
         printClassInfo(className);
