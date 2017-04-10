@@ -5,10 +5,12 @@ package company.myUseful.basicalgorithms.datastructures.linkedlist.slinkedlist;
  */
 public class Test {
     public static void main(String[] args) {
-        /*SLinkedList list = new SLinkedList(1, 2, 3);
-        System.out.println(list.toString());*/
+        /*SLinkedList list = new SLinkedList(1, 2, 3); */
 
-        SLinkedList list = SLinkedList.generateRandomList(15, 100);
+        SLinkedList list = SLinkedList.generateRandomList(20, 10);
+        System.out.println(list.toString());
+
+        list.removeIf(n -> n.value % 2 != 0);
         System.out.println(list.toString());
     }
 }
