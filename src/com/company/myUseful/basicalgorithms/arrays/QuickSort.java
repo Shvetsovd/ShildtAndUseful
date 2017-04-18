@@ -10,11 +10,11 @@ public class QuickSort {
         int[] a = new int[]{50, 30, 20, 90, 60, 10, 0, 100, -100};
         System.out.println(Arrays.toString(a));
 
-        qiockSort(a);
+        quickSort(a);
         System.out.println(Arrays.toString(a));
     }
 
-    private static void qiockSort(int[] a) {
+    public static void quickSort(int[] a) {
         _quickSort(a, 0, a.length - 1);
     }
 

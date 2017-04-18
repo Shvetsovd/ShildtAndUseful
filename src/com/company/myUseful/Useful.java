@@ -203,7 +203,7 @@ public class Useful {
             return dir.list();
     }
 
-    private static void quickSort(int[] arr, int start, int end){
+    public static void quickSort(int[] arr, int start, int end){
 
         int l = start;
         int r = end;

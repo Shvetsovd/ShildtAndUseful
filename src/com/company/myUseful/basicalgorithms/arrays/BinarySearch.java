@@ -17,7 +17,7 @@ public class BinarySearch {
 
     }
 
-    private static int binarySearch(int[] a, int value) {
+     private static int binarySearch(int[] a, int value) {
         int resultIndex = -1;
         int l = 0;
         int r = a.length - 1;
