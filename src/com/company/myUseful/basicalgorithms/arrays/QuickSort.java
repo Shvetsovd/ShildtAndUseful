@@ -21,14 +21,12 @@ public class QuickSort {
     private static void _quickSort(int[] a, int start, int end) {
         int l = start;
         int r = end;
-
-        int mediana = a[l + (r - l) / 2];
-
+        int bound = a[l + (r - l) / 2];
         while (l <= r) {
-            while (a[l] < mediana) {
+            while (a[l] < bound) {
                 l++;
             }
-            while (a[r] > mediana) {
+            while (a[r] > bound) {
                 r--;
             }
             if (l <= r) {

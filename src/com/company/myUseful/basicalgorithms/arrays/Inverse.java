@@ -10,7 +10,16 @@ public class Inverse {
         int[] a = {10, 20, 30, 40, 50, 60};
 
         System.out.println(Arrays.toString(a));
-        System.out.println(Arrays.toString(inverse3(a)));
+        System.out.println(Arrays.toString(inverse(a)));
+
+        inverseRecursive(a, 0);
+        System.out.println(Arrays.toString(a));
+    }
+
+    private static void inverseRecursive(int[] a, int i) {
+        if (i == a.length / 2) return;
+        inverseRecursive(a, i + 1);
+        swap(a, i, a.length - 1 - i);
     }
 
     private static int[] inverse(int[] a) {
@@ -39,8 +48,16 @@ public class Inverse {
     }
 
     private static void swap(int[] a, int left, int right) {
-        int tmp = a[left];
+       /* int tmp = a[left];
         a[left] = a[right];
-        a[right] = tmp;
+        a[right] = tmp;*/
+
+/*        a[left] = a[left] + a[right];
+        a[right] = a[left] - a[right];
+        a[left] = a[left] - a[right];*/
+
+        a[left] ^= a[right];
+        a[right] ^= a[left];
+        a[left] ^= a[right];
     }
 }

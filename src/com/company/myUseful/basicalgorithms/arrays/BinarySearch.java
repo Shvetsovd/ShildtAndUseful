@@ -17,24 +17,27 @@ public class BinarySearch {
 
     }
 
-     private static int binarySearch(int[] a, int value) {
+    private static int binarySearch(int[] a, int searchValue) {
         int resultIndex = -1;
         int l = 0;
         int r = a.length - 1;
 
         while (l <= r) {
-            int index = l + (r - l) / 2;
-            if (a[index] > value) {
-                r = index - 1;
-                continue;
-            } else if (a[index] < value) {
-                l = index + 1;
-                continue;
-            } else if (a[index] == value) {
-                resultIndex = index;
+            int midIndex = l + (r - l) / 2;
+            int midValue = a[midIndex];
+
+            if (searchValue < midValue) {
+                r = midIndex - 1;
+
+            } else if (searchValue > midValue) {
+                l = midIndex + 1;
+            } else {
+                resultIndex = midIndex;
                 break;
             }
         }
+
         return resultIndex;
     }
+
 }
