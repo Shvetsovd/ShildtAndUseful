@@ -40,7 +40,7 @@ class Coords<T extends TwoD> {
 
 public class BoundedWildcard {
     static void showXY(Coords<?> c) {
-        System.out.println("Координаты X Y:");
+        System.out.println("Координаты SupressTest Y:");
         for (int i = 0; i < c.coords.length; i++) {
             System.out.println(c.coords[i].x + " " +
                     c.coords[i].y);
@@ -49,7 +49,7 @@ public class BoundedWildcard {
     }
 
     public static void showXYZ(Coords<? extends ThreeD> c) {
-        System.out.println("Координаты X Y Z:");
+        System.out.println("Координаты SupressTest Y Z:");
         for (int i = 0; i < c.coords.length; i++) {
             System.out.println(c.coords[i].x + " " +
                     c.coords[i].y + " " +
@@ -59,7 +59,7 @@ public class BoundedWildcard {
     }
 
     public static void showAll(Coords<? extends FourD> c) {
-        System.out.println("Координаты X Y Z:");
+        System.out.println("Координаты SupressTest Y Z:");
         for (int i = 0; i < c.coords.length; i++) {
             System.out.println(c.coords[i].x + " " +
                     c.coords[i].y + " " +
