@@ -1,4 +1,4 @@
-package company.myUseful.basicalgorithms.math;
+package company.myUseful.basicalgorithms.recurse;
 
 import java.util.function.UnaryOperator;
 

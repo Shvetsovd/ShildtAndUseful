@@ -1,4 +1,4 @@
-package company.myUseful.basicalgorithms.math;
+package company.myUseful.basicalgorithms.recurse;
 
 /**
  * Created by OPER on 20.04.2017.
