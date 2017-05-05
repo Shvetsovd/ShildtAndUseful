@@ -23,7 +23,7 @@ class PlayManager implements Runnable {
     public void run() {
         threads = new Thread[3];
         for (int i = 0; i < countOfReplays; i++) {
-            threads[0] = new Thread(new Printer("A   .", 10, 100));
+            threads[0] = new Thread(new Printer("Outer   .", 10, 100));
             threads[1] = new Thread(new Printer(".   B", 10, 99));
             threads[2] = new Thread(new Printer("  C  ", 10, 100));
 

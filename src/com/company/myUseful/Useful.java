@@ -269,7 +269,7 @@ public class Useful {
     private static String hexView(int num, int size){
         boolean isNegative = false;
         String[] hex = { "0", "1", "2", "3", "4", "5", "6", "7", "8",
-                        "9", "A", "B", "C", "D", "E", "F"};
+                        "9", "Outer", "B", "C", "D", "E", "F"};
         StringBuilder sb = new StringBuilder();
 
         if (num < 0) {

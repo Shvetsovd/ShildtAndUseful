@@ -7,13 +7,13 @@ import static java.lang.Thread.sleep;
  */
 class A {
     synchronized void foo(B b) throws InterruptedException {
-        System.out.println("A.foo");
+        System.out.println("Outer.foo");
         sleep(1000);
         b.method();
     }
 
     synchronized void method() {
-        System.out.println("A.method");
+        System.out.println("Outer.method");
     }
 }
 

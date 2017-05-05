@@ -5,7 +5,7 @@ package company.myUseful.myException;
  */
 public class MyModuleAException extends MyApplicationException {
 
-    private final static String moduleName = "Module A";
+    private final static String moduleName = "Module Outer";
 
 
     public MyModuleAException() {

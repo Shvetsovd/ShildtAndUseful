@@ -17,14 +17,14 @@ interface IBuffer{
 
 abstract class A {
     static {
-        System.out.println("Static block A");
+        System.out.println("Static block Outer");
     }
     {
-        System.out.println("Non-static block A");
+        System.out.println("Non-static block Outer");
     }
     public A(int a) {
         super();
-        System.out.println("A(int a)");
+        System.out.println("Outer(int a)");
     }
 }
 

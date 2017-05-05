@@ -12,11 +12,11 @@ class StaticTest {
 class Test{
     public static void main(String[] args) {
     /*will fail - compilation error, you need an instance of StaticTest to instantiate A*/
-        //     A a = new A();
+        //     Outer a = new Outer();
     /*will compile successfully, no instance of Test is needed to instantiate B */
         StaticTest.B b = new StaticTest.B();
         StaticTest a = new StaticTest();
-        //Error - a.A aa = new StaticTest.A();
+        //Error - a.Outer aa = new StaticTest.Outer();
 
 
              /*Integer a = 300000000;

@@ -29,7 +29,7 @@ public class InstanceOf {
         D d = new D();
 
         if (a instanceof A)
-            System.out.println("a является элементом A");
+            System.out.println("a является элементом Outer");
 
         if (b instanceof B)
             System.out.println("b является элементом B");
@@ -38,7 +38,7 @@ public class InstanceOf {
             System.out.println("c является элементом C");
 
         if (c instanceof A)
-            System.out.println("c можно привести к типу A");
+            System.out.println("c можно привести к типу Outer");
 
         if (a instanceof C)
             System.out.println("a можно привести к типу C");
@@ -64,7 +64,7 @@ public class InstanceOf {
             System.out.println("ob нельзя привести к типу D");
 
         if(ob instanceof A)
-            System.out.println("ob можно привести к типу A");
+            System.out.println("ob можно привести к типу Outer");
 
         System.out.println();
 

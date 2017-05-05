@@ -6,7 +6,7 @@ package company.shildt.chapter11;
 class A {
     synchronized void foo(B b) {
         String name = Thread.currentThread().getName();
-        System.out.println(name + " вошел в метод A.foo()");
+        System.out.println(name + " вошел в метод Outer.foo()");
 
         try {
             Thread.sleep(1000);
@@ -18,7 +18,7 @@ class A {
     }
 
     synchronized void last() {
-        System.out.println("В методе A.last()");
+        System.out.println("В методе Outer.last()");
     }
 }
 
@@ -31,7 +31,7 @@ class B {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(name + " пытается вызвать метод A.last()");
+        System.out.println(name + " пытается вызвать метод Outer.last()");
         a.last();
     }
 
