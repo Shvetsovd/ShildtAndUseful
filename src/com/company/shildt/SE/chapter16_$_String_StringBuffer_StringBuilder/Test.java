@@ -1,4 +1,4 @@
-package company.shildt.chapter16$String_StringBuffer_StringBuilder;
+package company.shildt.SE.chapter16_$_String_StringBuffer_StringBuilder;
 
 /**
  * Created by user on 11.05.2017.
