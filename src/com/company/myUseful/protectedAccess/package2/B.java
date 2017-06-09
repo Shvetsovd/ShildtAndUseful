@@ -12,5 +12,12 @@ public class B extends A {
 }
 
 class C extends B{
-
+    public static void main(String[] args) {
+        Float f1 = 0.0f;
+        Float f2 = 0.0f;
+        System.out.println(f1 == f2);
+    }
+    static void meth(int a){
+        System.out.println(a);
+    }
 }

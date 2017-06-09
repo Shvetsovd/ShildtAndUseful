@@ -22,9 +22,14 @@ public class Test2 {
 
 
     public static void main(String[] args) {
-        System.out.println(Test2.a);
-    }
 
+        byte a = -128;
+        byte b = 100;
+        byte c = (byte) (a << 1);
+        System.out.println(c);
+        //System.out.println(Test2.a);
+
+    }
 
 
 }
