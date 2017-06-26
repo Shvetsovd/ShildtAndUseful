@@ -1,17 +1,18 @@
 package company.myUseful;
 
-import java.io.Console;
-import java.io.IOException;
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+
+import java.io.*;
 import java.lang.reflect.Constructor;
+import java.math.BigInteger;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
 import static java.lang.StrictMath.*;
 
@@ -19,29 +20,16 @@ import static java.lang.StrictMath.*;
 /**
  * Created by OPER on 12.06.2017.
  */
+
+
 public class NNN {
-
-
-
-}
-
-class TrickyNum<X extends Number> {
-
-    private X x;
-
-    public TrickyNum(X x) {
-        this.x = x;
-    }
-
-    private double getDouble() {
-        return x.doubleValue();
-    }
-
-    public static void main(String args[]) {
-        TrickyNum<Integer> a = new TrickyNum<Integer>(new Integer(1));
-        System.out.print(a.getDouble());
+    public static void main(String[] args) throws IOException {
+        System.out.printf("% ,.2f%n", 123.456);
+        System.out.printf("% ,.2f", -123.456);
     }
 }
+
+
 
 
 
