@@ -11,7 +11,7 @@ import java.net.URL;
  */
 public class GetURLContent {
     public static void main(String[] args) throws IOException {
-        URL url = new URL("http://korrespondent.net");
+        URL url = new URL("http://lenta.ru");
         BufferedReader bf = new BufferedReader(new InputStreamReader(url.openStream()));
 
         String data = bf.readLine();
