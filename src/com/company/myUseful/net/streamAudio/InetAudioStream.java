@@ -27,7 +27,7 @@ public class InetAudioStream {
         //playURLAudioStream("http://icecast.radiomaximum.cdnvideo.ru/maximum.mp3");
 
         //Локальный mp3 файл
-        playMP3File("c:\\!BCP\\DMITRY\\Музыка\\Ed_Sheeran_feat._Zion_and_Lennox_-_Shape_Of_You_(Latin_Remix)_(PrimeMusic.cc).mp3");
+        playMP3File("d:\\MUSIC\\TeQuero.mp3");
 
 
 

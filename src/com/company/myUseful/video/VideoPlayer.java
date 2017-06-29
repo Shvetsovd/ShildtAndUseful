@@ -5,6 +5,8 @@ import javafx.scene.Scene;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
+// "https://www.youtube.com/embed/EOQ0ZY8h1RE"
+
 public class VideoPlayer extends Application {
     public static void main(String[] args) { launch(args); }
 
@@ -12,7 +14,7 @@ public class VideoPlayer extends Application {
     public void start(Stage stage) throws Exception {
         WebView webview = new WebView();
         webview.getEngine().load(
-                "https://www.youtube.com/embed/EOQ0ZY8h1RE"
+                "https://www.youtube.com/embed/Bvmxr24D4TA"
         );
 
         webview.setPrefSize(640, 390);
