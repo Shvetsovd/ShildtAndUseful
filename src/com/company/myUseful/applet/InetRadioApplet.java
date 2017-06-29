@@ -45,6 +45,7 @@ public class InetRadioApplet extends Applet {
 
     private final Font f = new Font("Dialog", Font.PLAIN, 10);
     private Image logo;
+    private Choice stationChoice;
 
     private Thread bannerThread;
     private Thread streamThread;
@@ -57,8 +58,16 @@ public class InetRadioApplet extends Applet {
 
     @Override
     public void init() {
+        this.setLayout(new GridLayout(10, 100));
         setBackground(Color.black);
         setForeground(Color.WHITE);
+
+        /*stationChoice = new Choice();
+        stationChoice.add("Europa Plus");
+        stationChoice.add("Love Radio");
+        stationChoice.add("Radio Record");
+        stationChoice.add("Maximum FM");
+        this.add(stationChoice);*/
 
 
         try {
@@ -155,10 +164,6 @@ public class InetRadioApplet extends Applet {
         String text = ("В эфире: " + bannerText).intern();
         posX = (getWidth() - g.getFontMetrics(f).stringWidth(text)) / 2;
 
-        //g.drawLine(posX, 0, posX, this.getHeight());
-        //g.drawLine(this.getWidth() / 2, 0, this.getWidth() / 2, this.getHeight());
-        //g.drawLine((getWidth() + g.getFontMetrics(f).stringWidth(text)) / 2, 0, (getWidth() + g.getFontMetrics(f).stringWidth(text)) / 2, this.getHeight());
-
         g.drawString(text, posX, 30);
 
         posX = getWidth() / 2 - logo.getWidth(this) / 2;
@@ -171,7 +176,7 @@ public class InetRadioApplet extends Applet {
         } else {
             setSize(600, 400);
         }
-
+        //stationChoice.repaint();
 
     }
 }
