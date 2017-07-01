@@ -1,6 +1,10 @@
 package company.myUseful.currency;
 
+import java.awt.*;
 import java.util.*;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Stream;
 
 import static java.util.Currency.*;
 import static java.util.Currency.getAvailableCurrencies;
@@ -22,14 +26,36 @@ public class Test {
 
         System.out.println("---");
 
+
+        Set<Currency> availableCurrencies = Currency.getAvailableCurrencies();
+       /* TreeSet<Currency> sortedCurrencies = new TreeSet<>(new Comparator<Currency>() {
+            @Override
+            public int compare(Currency o1, Currency o2) {
+                return o1.getDisplayName().compareTo(o2.getDisplayName());
+            }
+        });
+        sortedCurrencies.addAll(availableCurrencies);
+        System.out.println(sortedCurrencies);*/
+
+        Currency[] curs = new Currency[availableCurrencies.size()];
+        availableCurrencies.toArray(curs);
+        Arrays.sort(curs, 0, curs.length, new Comparator<Currency>() {
+            @Override
+            public int compare(Currency o1, Currency o2) {
+                return o1.getDisplayName().compareTo(o2.getDisplayName());
+            }
+        });
+
         int count = 0;
-        for (Currency currency : getAvailableCurrencies()) {
+        for (Currency currency : curs) {
             Formatter frm = new Formatter();
             frm.format("%-40s\t%-3s", currency.getDisplayName(), currency.getCurrencyCode());
             System.out.println(frm);
             frm.close();
             count++;
         }
+
+
         System.out.println("---");
         System.out.println("Всего валют: " + count);
 

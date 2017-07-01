@@ -72,6 +72,7 @@ public class InetRadioApplet extends Applet {
 
         try {
             logo = getImage(new URL(logoURL));
+
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
