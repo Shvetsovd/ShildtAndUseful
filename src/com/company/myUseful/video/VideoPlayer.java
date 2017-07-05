@@ -14,7 +14,7 @@ public class VideoPlayer extends Application {
     public void start(Stage stage) throws Exception {
         WebView webview = new WebView();
         webview.getEngine().load(
-                "https://www.youtube.com/embed/Bvmxr24D4TA"
+                "https://www.youtube.com/embed/EOQ0ZY8h1RE"
         );
 
         webview.setPrefSize(640, 390);

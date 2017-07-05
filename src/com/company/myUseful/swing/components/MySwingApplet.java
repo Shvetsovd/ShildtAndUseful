@@ -1,4 +1,4 @@
-package company.myUseful.swing;
+package company.myUseful.swing.components;
 
 import javax.swing.*;
 import java.awt.*;
