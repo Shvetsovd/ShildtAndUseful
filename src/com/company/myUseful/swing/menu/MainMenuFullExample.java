@@ -1,5 +1,7 @@
 package company.myUseful.swing.menu;
 
+import javafx.stage.Stage;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -16,6 +18,8 @@ public class MainMenuFullExample implements ActionListener {
     JFrame frame;
     JMenuBar menuBar;
     JLabel jlabel;
+
+
 
     //Actions
     DebugAction setAct;
