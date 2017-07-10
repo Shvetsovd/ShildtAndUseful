@@ -9,10 +9,7 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.effect.BoxBlur;
-import javafx.scene.effect.Glow;
-import javafx.scene.effect.InnerShadow;
-import javafx.scene.effect.Reflection;
+import javafx.scene.effect.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
@@ -31,7 +28,7 @@ import javafx.stage.Stage;
 /**
  * Created by OPER on 07.07.2017.
  */
-public class WebBrowserDemo extends Application {
+public class MyWebBrowser extends Application {
     private Scene scene;
     private BorderPane root;
 

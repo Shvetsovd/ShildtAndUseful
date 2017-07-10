@@ -17,17 +17,17 @@ public class WebViewDemo extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("JavaFX WebView Demo");
+        primaryStage.setTitle("JavaFX WebViewDemo Demo");
 
         FlowPane rootNode = new FlowPane();
 
         Scene scene = new Scene(rootNode);
         primaryStage.setScene(scene);
 
-        //Create Label
+        //Create LabelDemo
         WebView view = new WebView();
         view.getEngine().load("https://ya.ru/");
-        //Add Label to root node
+        //Add LabelDemo to root node
         rootNode.getChildren().add(view);
 
         primaryStage.show();

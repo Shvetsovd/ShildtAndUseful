@@ -19,16 +19,16 @@ public class LabelDemo extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("JavaFX Label Demo");
+        primaryStage.setTitle("JavaFX LabelDemo Demo");
 
         FlowPane rootNode = new FlowPane();
 
         Scene scene = new Scene(rootNode, 300, 200);
         primaryStage.setScene(scene);
 
-        //Create Label
+        //Create LabelDemo
         Label label = new Label("This is JavaFX label!");
-        //Add Label to root node
+        //Add LabelDemo to root node
         rootNode.getChildren().add(label);
 
         primaryStage.show();
