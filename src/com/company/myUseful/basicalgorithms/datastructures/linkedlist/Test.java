@@ -1,4 +1,4 @@
-package company.myUseful.basicalgorithms.datastructures.linkedlist.slinkedlist;
+package company.myUseful.basicalgorithms.datastructures.linkedlist;
 
 /**
  * Created by user on 10.04.2017.

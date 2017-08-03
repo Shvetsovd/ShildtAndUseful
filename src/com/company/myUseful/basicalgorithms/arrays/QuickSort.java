@@ -22,6 +22,7 @@ public class QuickSort {
         int l = start;
         int r = end;
         int bound = a[l + (r - l) / 2];
+
         while (l <= r) {
             while (a[l] < bound) {
                 l++;

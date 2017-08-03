@@ -18,6 +18,9 @@ package company.myUseful.patterns.singleton;
 * */
 class Singleton1 {
     public static final Singleton1 INSTANCE = new Singleton1();
+
+    private Singleton1() {
+    }
 }
 
 enum Singletone2 {
@@ -32,6 +35,9 @@ class Singleton3 {
             instance = new Singleton3();
         }
         return instance;
+    }
+
+    private Singleton3() {
     }
 }
 
@@ -49,6 +55,9 @@ class Singleton4 {
         }
         return instance;
     }
+
+    private Singleton4() {
+    }
 }
 
 //можно использовать также для ленивой инициализации статических полей
@@ -60,6 +69,9 @@ class Singleton5 {
 
     public static Singleton5 getInstance() {
         return SingletoneHolder.INSTANCE;
+    }
+
+    private Singleton5() {
     }
 }
 

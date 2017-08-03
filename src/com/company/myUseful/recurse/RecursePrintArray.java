@@ -1,9 +1,9 @@
-package company.javaNotes;
+package company.myUseful.recurse;
 
 /**
  * Created by OPER on 31.01.2017.
  */
-public class Recurse {
+public class RecursePrintArray {
     public static void main(String[] args) {
         int arr[] = {1, 2, 3};
         printArray(arr, arr.length);

@@ -1,4 +1,4 @@
-package company.myUseful.basicalgorithms.datastructures.linkedlist.slinkedlist;
+package company.myUseful.basicalgorithms.datastructures.linkedlist;
 
 import java.util.Random;
 import java.util.function.Predicate;

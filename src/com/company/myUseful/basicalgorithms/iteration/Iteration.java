@@ -9,8 +9,8 @@ public class Iteration {
         //example2();
         //example3();
         //example4();
-        //example5();
-        example6();
+        example5();
+        //example6();
     }
 
     private static void example1() {

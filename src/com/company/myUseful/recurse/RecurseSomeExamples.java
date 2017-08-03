@@ -3,7 +3,7 @@ package company.myUseful.recurse;
 /**
  * Created by dmitry on 30.01.17.
  */
-public class RecurseTest {
+public class RecurseSomeExamples {
     public static void main(String[] args) {
         int a = 5;
         int arr[] = { 5, 2, 6, 8, 0, 3 };
