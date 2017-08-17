@@ -1,10 +1,7 @@
 package company.eckel.generics.coffee;//: generics/coffee/CoffeeGenerator.java
 // Generate different types of Coffee:
-
 import company.eckel.generics.Generator;
-
 import java.util.*;
-
 
 public class CoffeeGenerator
 implements Generator<Coffee>, Iterable<Coffee> {

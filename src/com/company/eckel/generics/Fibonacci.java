@@ -1,5 +1,6 @@
 package company.eckel.generics;
 
+
 public class Fibonacci implements Generator<Integer> {
   private int count = 0;
   public Integer next() { return fib(count++); }
