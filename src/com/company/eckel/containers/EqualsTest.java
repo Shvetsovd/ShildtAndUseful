@@ -7,20 +7,20 @@ import java.util.Objects;
  */
 public class EqualsTest {
     public static void main(String[] args) {
-        Person p1 = new Person("Vasya", "Pupkin", 23);
-        Person p2 = new Person("Vasya", "Pupkin", 23);
+        Human p1 = new Human("Vasya", "Pupkin", 23);
+        Human p2 = new Human("Vasya", "Pupkin", 23);
         System.out.println(p1.equals(p2));
     }
 }
 
-class Person {
+class Human {
     private static int count;
     private final int id = count++;
     private String firstName;
     private String lastName;
     private int age;
 
-    public Person(String firstName, String lastName, int age) {
+    public Human(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -32,7 +32,7 @@ class Person {
         if (o == null) return false;
         if (o.getClass() != getClass()) return false;
 
-        Person another = (Person) o;
+        Human another = (Human) o;
 
         return Objects.equals(firstName, another.firstName)
                 && Objects.equals(lastName, another.lastName)

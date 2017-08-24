@@ -25,9 +25,9 @@ public class IteratorOperations {
     // Must move to an element after add():
     System.out.println(it.next());
     // Remove the element after the newly produced one:
-    it.remove();
+    //it.remove();
     // Must move to an element after remove():
-    System.out.println(it.next());
+    //System.out.println(it.next());
     // Change the element after the deleted one:
     //it.set("47");
   }
