@@ -1,7 +1,5 @@
 package company.shildt.chapter14;
 
-import company.javaNotes.Interface;
-import company.shildt.chapter4.IncDec;
 
 /**
  * Created by OPER on 24.03.2017.

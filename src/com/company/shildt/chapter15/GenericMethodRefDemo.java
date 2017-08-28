@@ -1,7 +1,5 @@
 package company.shildt.chapter15;
 
-import company.javaNotes.Interface;
-
 /**
  * Created by OPER on 30.03.2017.
  */
