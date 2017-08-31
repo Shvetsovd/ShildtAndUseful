@@ -1,14 +1,5 @@
 package company.shildt.SE.chapter16_$_String_StringBuffer_StringBuilder;
 
-import company.myUseful.lambda.Test;
-import org.omg.PortableInterceptor.ServerRequestInfo;
-
-import java.io.UnsupportedEncodingException;
-import java.lang.annotation.*;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
-import java.util.Arrays;
-
 
 public class Test2 {
 

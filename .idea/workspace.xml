@@ -4,7 +4,238 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d1823a-087a-44eb-a631-673017222741" name="Default" comment="" />
+    <list default="true" id="26d1823a-087a-44eb-a631-673017222741" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/StaticTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/Useful.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/abstractTest/AbstractClassTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/abstractTest/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/abstractTest/RealClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/annotations/CODE.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/annotations/CodeState.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/annotations/test/AnnoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/TODO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/BinarySearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/BubbleSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/Inverse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/InverseString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/MatrixMultiple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/Merge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/MergeSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/ParallelSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/QuickSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/SelectionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/arrays/SortByInsertions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/datastructures/binarytree/BSTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/datastructures/binarytree/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/datastructures/linkedlist/SLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/datastructures/linkedlist/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/iteration/Iteration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/ExpressionParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/Factorial.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/Fibbonachi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/FibonacciCallTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/HanoiTowers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/basicalgorithms/recurse/Permutation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/callbackExample/Button.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/callbackExample/ButtonHandlers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/callbackExample/Program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/classLoading/MyClassLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/classLoading/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/extendsTest/A.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/extendsTest/B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/extendsTest/IA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/extendsTest/IB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/extendsTest/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/generics/StackTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/infinityNaN/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/inheritance/AccessTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/inheritance/Parent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/inheritance/example2/A.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javabeans/IntrospectorDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ScrollPaneDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/ContainerThreadTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/NewRunnableTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/NewRunnableTest2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/NewThreadTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/NewThreadTest2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/OverrideUncaughtExceptionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/PlayTheAccordion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/ProducerConsumer/PCTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/SingleElementBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/SingleElementBufferTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/TheRabbitAttack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/ThreadInClassTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/deadlock/Deadlock2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/deadlock/DeadlockTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/innewThreads/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/test2/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/multithreading/tests/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/AutorizationException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/MyApplicationException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/MyModuleAException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/TestMyExceptions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/Translation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/tests/SupressTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myException/tests/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/nanInfinity/Tests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/nestedInner/Callback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/nestedInner/Callback2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/nestedInner/QuickOverride.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/WhoIsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/streamAudio/InetAudioStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/nio/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/patterns/singleton/Singleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/processBuilder/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/protectedAccess/package1/A.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/protectedAccess/package2/B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/reflection/ReflectionClassParser_Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JCheckBoxDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JComboBoxDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JTableDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JTextFieldDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/MySwingApplet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuSimple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example1/CarFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example2/Printer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example4/test/Example4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/StringTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/inheritance/ChildInAnotherPackage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/video/VideoPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/wordChains/wordChains.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/NNN.java" afterPath="$PROJECT_DIR$/src/com/company/useful/NNN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/ButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/ButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/ButtonDemo2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/ButtonDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/CheckBoxDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/CheckBoxDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/CheckBoxGroupDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/CheckBoxGroupDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/ChoiceDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/ChoiceDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/InetRadioApplet.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/InetRadioApplet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/ListChoiceDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/ListChoiceDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/MouseObserverApplet.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/MouseObserverApplet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/MovingBannerApplet.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/MovingBannerApplet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/ScrollbarDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/ScrollbarDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/TextAreaDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/TextAreaDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/TextFieldDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/TextFieldDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/layouts/BorderLayoutDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/layouts/BorderLayoutDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/layouts/BorderLayoutWithInsetsDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/layouts/BorderLayoutWithInsetsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/layouts/CardLayoutDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/layouts/CardLayoutDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/layouts/FlowLayoutDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/layouts/FlowLayoutDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/applet/layouts/GridLayoutDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/applet/layouts/GridLayoutDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/currency/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/currency/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/dateTime/DateTimeDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/dateTime/DateTimeDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/dateTime/Test1.java" afterPath="$PROJECT_DIR$/src/com/company/useful/dateTime/Test1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/dateTime/Test2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/dateTime/Test2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/dateTime/TimeDifference.java" afterPath="$PROJECT_DIR$/src/com/company/useful/dateTime/TimeDifference.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/enums/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/enums/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/filesystem/FileManager.java" afterPath="$PROJECT_DIR$/src/com/company/useful/filesystem/FileManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/filesystem/FileManagerTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/filesystem/FileManagerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/forkjoin/Fib.java" afterPath="$PROJECT_DIR$/src/com/company/useful/forkjoin/Fib.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/generics/Stack.java" afterPath="$PROJECT_DIR$/src/com/company/useful/generics/Stack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/generics/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/generics/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/generics/Tmp.java" afterPath="$PROJECT_DIR$/src/com/company/useful/generics/Tmp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/idea/Shortcuts.java" afterPath="$PROJECT_DIR$/src/com/company/useful/idea/Shortcuts.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/idea/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/idea/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javabeans/Colors.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javabeans/Colors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javabeans/ColorsBeanInfo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javabeans/ColorsBeanInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javadocs/SquareNum.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javadocs/SquareNum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/DisableNodeDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/DisableNodeDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/EffectsAndTransformsDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/EffectsAndTransformsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/MyWebBrowser.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/MyWebBrowser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/ToolTipsDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/ToolTipsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ButtonEventDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ButtonEventDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ButtonWithImageDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ButtonWithImageDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/CanvasDirectDraw.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/CanvasDirectDraw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/CheckBoxDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/CheckBoxDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/CheckBoxIndeterminateDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/CheckBoxIndeterminateDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ComboBoxDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ComboBoxDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ImageDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ImageDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/LabelDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/LabelDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/LabelWithImageDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/LabelWithImageDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ListViewMultipleChoiceDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ListViewMultipleChoiceDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/ListViewSingleChoiceDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/ListViewSingleChoiceDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/RadioButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/RadioButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/RadioButtonWithConfirmButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/RadioButtonWithConfirmButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/TextFieldWithPasswordDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/TextFieldWithPasswordDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/TogleButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/TogleButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/TreeViewDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/TreeViewDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/components/WebViewDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/components/WebViewDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/menu/BaseMenuClasses.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/menu/BaseMenuClasses.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/menu/MenuToolBarContextMenuDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/menu/MenuToolBarContextMenuDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/skeletons/JavaFXSkeleton.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/skeletons/JavaFXSkeleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/skeletons/JavaFXSkeletonFull.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/skeletons/JavaFXSkeletonFull.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/javafx/skeletons/JavaFXSkeletonRusComments.java" afterPath="$PROJECT_DIR$/src/com/company/useful/javafx/skeletons/JavaFXSkeletonRusComments.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/lambda/RefToMethods.java" afterPath="$PROJECT_DIR$/src/com/company/useful/lambda/RefToMethods.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/lambda/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/lambda/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/lambda/Test2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/lambda/Test2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/logger/LoggerTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/logger/LoggerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myList/LinkedList.java" afterPath="$PROJECT_DIR$/src/com/company/useful/myList/LinkedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/myList/ListTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/myList/ListTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/GetURLContent.java" afterPath="$PROJECT_DIR$/src/com/company/useful/net/GetURLContent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/InetAddressTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/net/InetAddressTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/SocketTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/net/SocketTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/URLTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/net/URLTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/net/httpURLConnection.java" afterPath="$PROJECT_DIR$/src/com/company/useful/net/httpURLConnection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/patterns/builder/PrinterBuilderTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/patterns/builder/PrinterBuilderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/recurse/RecursePrintArray.java" afterPath="$PROJECT_DIR$/src/com/company/useful/recurse/RecursePrintArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/recurse/RecurseSomeExamples.java" afterPath="$PROJECT_DIR$/src/com/company/useful/recurse/RecurseSomeExamples.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/reflection/ReflectionClassParser.java" afterPath="$PROJECT_DIR$/src/com/company/useful/reflection/ReflectionClassParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp4.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/RegExp4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp6.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/RegExp6.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp7.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/RegExp7.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp8.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/RegExp8.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/RegExp9.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/RegExp9.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/Test2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/Test2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/regex/Test3.java" afterPath="$PROJECT_DIR$/src/com/company/useful/regex/Test3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/serialize/A.java" afterPath="$PROJECT_DIR$/src/com/company/useful/serialize/A.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/serialize/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/serialize/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/streams/Test.java" afterPath="$PROJECT_DIR$/src/com/company/useful/streams/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/streams/Test2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/streams/Test2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/PaintDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/PaintDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/SwingDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/SwingDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JLabelDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JLabelDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JListDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JListDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JRadioButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JRadioButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JScrollPaneDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JScrollPaneDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JTabbedPaneDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JTabbedPaneDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JToggleButtonDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JToggleButtonDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/components/JTreeDemo.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/components/JTreeDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuFullExample.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuFullExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuWithHotkeysAndMnemonics.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuWithHotkeysAndMnemonics.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuWithIconsAndTooltips.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuWithIconsAndTooltips.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuWithRadioButtonAndCheckBox.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuWithRadioButtonAndCheckBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuWithToolbar.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuWithToolbar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/MainMenuWithToolbarAndActions.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/MainMenuWithToolbarAndActions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/menu/PopupMenu.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/menu/PopupMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/skeletons/JAppletSkelet.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/skeletons/JAppletSkelet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/swing/skeletons/JFrameSkelet.java" afterPath="$PROJECT_DIR$/src/com/company/useful/swing/skeletons/JFrameSkelet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/system/ClassTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/system/ClassTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/system/SystemGetPropertyEnv.java" afterPath="$PROJECT_DIR$/src/com/company/useful/system/SystemGetPropertyEnv.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/system/SystemProperties.java" afterPath="$PROJECT_DIR$/src/com/company/useful/system/SystemProperties.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example1/Car.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example1/Car.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example1/Example1.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example1/Example1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example1/FordFactory.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example1/FordFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example1/VWFactory.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example1/VWFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example2/BufferedPrinter.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example2/BufferedPrinter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example2/ConsolePrinter.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example2/ConsolePrinter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example2/Example2.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example2/Example2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example3/Example3.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example3/Example3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example3/FileManager.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example3/FileManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example4/Generator.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example4/Generator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example4/Generators.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example4/Generators.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tdd/example4/test/ArrayGeneratorTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tdd/example4/test/ArrayGeneratorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/Arrays.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tmp/Arrays.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/Outer.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tmp/Outer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/RecursionTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tmp/RecursionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/Tests.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tmp/Tests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/myUseful/tmp/VarargsTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/tmp/VarargsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/eckel/containers/Countries.java" afterPath="$PROJECT_DIR$/src/com/company/eckel/containers/Countries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/ProcessFiles.java" afterPath="$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/ProcessFiles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/shildt/SE/chapter16_$_String_StringBuffer_StringBuilder/Test2.java" afterPath="$PROJECT_DIR$/src/com/company/shildt/SE/chapter16_$_String_StringBuffer_StringBuilder/Test2.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,150 +257,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VendingMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/VendingMachine.java">
+      <file leaf-file-name="AtUnitExample4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2091">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#678#695#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
-                <element signature="e#3006#3007#0" expanded="true" />
-                <element signature="e#3129#3130#0" expanded="true" />
-                <element signature="e#3171#3172#0" expanded="true" />
-                <element signature="e#3514#3515#0" expanded="true" />
-                <element signature="e#3551#3552#0" expanded="true" />
-                <element signature="e#4117#4118#0" expanded="true" />
-                <element signature="e#4163#4164#0" expanded="true" />
-                <element signature="e#4362#4363#0" expanded="true" />
-                <element signature="e#4424#4425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Outcome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Outcome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoShamBo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo1.java">
+      <file leaf-file-name="OSExecute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/OSExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+            <state relative-caret-position="159">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OSExecuteException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/OSExecuteException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtUnitExample5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoShamBo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo.java">
+      <file leaf-file-name="AtUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Competitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Competitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoShamBo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoShamBo3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoShamBo4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoShamBo5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#checkForCleanupMethod#0;class#AtUnit#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoShamBo6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo6.java">
+      <file leaf-file-name="ClassNameFinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/ClassNameFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="-272">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtUnitRemover.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnitRemover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocationTargetException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/reflect/InvocationTargetException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessFiles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/ProcessFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -240,45 +420,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/xfiles/ThawAlien.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/Blips.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/Blip3.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/Logon.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/SerialCtl.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/MyWorld.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/StoreCADState.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/RecoverCADState.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/xml/People.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/xml/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/io/PreferencesDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumClass.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Burrito.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/OzWitch.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Spiciness.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/SpaceShip.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/TrafficLight.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Reflection.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/UpcastEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/NonEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/cartoons/EnumImplementation.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Enums.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/RandomTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Course.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Food.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Meal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Meal2.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/TypeOfFood.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/SecurityCategory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/AlarmPoints.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumSets.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/BigEnumSet.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumMaps.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/ConstantSpecificMethod.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/NotClasses.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/CarWash.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/OverrideConstantSpecific.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/PostOffice.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Test.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Test.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/Input.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/VendingMachine.java" />
@@ -291,6 +432,45 @@
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo4.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo5.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo6.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/Testable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/UseCase.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/PasswordUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/UseCaseTracker.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/SimulatingNull.java" />
+        <option value="$PROJECT_DIR$/src/com/company/myUseful/annotations/CodeState.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/DBTable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/Constraints.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/SQLInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/SQLString.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/Uniqueness.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/Member.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/TableCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/ExtractInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/Multiplier.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/InterfaceExtractorProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/InterfaceExtractorProcessorFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/database/TableCreationProcessorFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnit.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestObjectCleanup.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestObjectCreate.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestProperty.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/ClassNameFinder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/containers/Countries.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/ProcessFiles.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/collections/iterable/IterableClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExternalTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitComposition.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/HashSetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample3.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample5.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/StackL.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/StackLStringTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample4.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/lll.form" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnitRemover.java" />
       </list>
     </option>
   </component>
@@ -338,7 +518,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,7 +550,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
@@ -378,8 +558,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="atunit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
@@ -387,8 +567,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="EnumClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
@@ -396,88 +575,16 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="EnumMaps.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="NotClasses.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="PostOffice.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="RandomTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflection.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="RoShamBo1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="TrafficLight.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="UpcastEnum.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerated" type="462c0819:PsiDirectoryNode" />
-              <item name="VendingMachine.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="iterable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,15 +631,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RoShamBo1">
-    <configuration name="NonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ClassNameFinder">
+    <configuration name="AtUnitExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.enumerated.*" />
+          <option name="PATTERN" value="company.eckel.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.enumerated.NonEnum" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.annotations.AtUnitExample3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -544,14 +651,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AtUnitExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.enumerated.*" />
+          <option name="PATTERN" value="company.eckel.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.enumerated.Reflection" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.annotations.AtUnitExample4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -563,14 +670,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="RoShamBo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AtUnitExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.enumerated.*" />
+          <option name="PATTERN" value="company.eckel.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.enumerated.RoShamBo1" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.annotations.AtUnitExample5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -582,14 +689,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassNameFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.enumerated.*" />
+          <option name="PATTERN" value="company.eckel.annotations.atunit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.enumerated.Test" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.annotations.atunit.ClassNameFinder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -601,14 +708,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="UpcastEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StackLStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.enumerated.*" />
+          <option name="PATTERN" value="company.eckel.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.enumerated.UpcastEnum" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.annotations.StackLStringTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -819,19 +926,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Reflection" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UpcastEnum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NonEnum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RoShamBo1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AtUnitExample3" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AtUnitExample4" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AtUnitExample5" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StackLStringTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ClassNameFinder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RoShamBo1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NonEnum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UpcastEnum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Reflection" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ClassNameFinder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AtUnitExample4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StackLStringTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AtUnitExample5" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AtUnitExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -864,24 +971,24 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.48969072" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32392472" sideWeight="0.48969072" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46370968" sideWeight="0.48969072" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49804434" sideWeight="0.53070176" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32123655" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37634408" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22983871" sideWeight="0.4974227" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19858612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20372751" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35752687" sideWeight="0.48971722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35215053" sideWeight="0.48971722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -900,7 +1007,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="72" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample4.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -909,14 +1024,237 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/StoreCADState.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/RecoverCADState.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/xml/build.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/xml/People.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/xml/Person.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/util/prefs/Preferences.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/io/PreferencesDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Burrito.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Books/JAVA/Thinking in JAVA/TIJ4-code/annotations/AtUnitComposition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/UseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/PasswordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/UseCaseTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/SimulatingNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/annotations/CODE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/annotations/CodeState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/annotations/test/AnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/Constraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/SQLInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#441#442#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/SQLString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/Uniqueness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/TableCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/InterfaceExtractorProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <marker date="1504174362910" expanded="false" signature="666:673" ph=" { " />
+            <marker date="1504174362910" expanded="false" signature="703:707" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/database/TableCreationProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestObjectCleanup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestObjectCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/video/VideoPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/containers/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#7355#7356#0" expanded="false" />
+            <element signature="e#7405#7406#0" expanded="false" />
+            <element signature="e#7553#7554#0" expanded="false" />
+            <element signature="e#7606#7607#0" expanded="false" />
+            <element signature="e#7646#7647#0" expanded="false" />
+            <element signature="e#7699#7700#0" expanded="false" />
+            <element signature="e#8478#8479#0" expanded="false" />
+            <element signature="e#8521#8522#0" expanded="false" />
+            <element signature="e#10155#10156#0" expanded="false" />
+            <element signature="e#10183#10184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/ExtractInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/InterfaceExtractorProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="61" column="3" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/Multiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/Testable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/arrays/AlphabeticSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/arrays/ArrayOfGenerics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -924,561 +1262,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/arrays/ArrayOfGenericType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/collections/iterable/IterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitComposition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/OzWitch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="235">
+          <caret line="45" column="26" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="47" selection-end-column="85" />
           <folding>
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Spiciness.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExternalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/SpaceShip.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/HashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="46" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="51" column="65" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/TestProperty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/TrafficLight.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/StackL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
-            <element signature="docComment;class#Enum#0" expanded="false" />
-            <element signature="docComment;field#name#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#name#0;class#Enum#0" expanded="false" />
-            <element signature="e#2036#2037#0" expanded="false" />
-            <element signature="e#2063#2064#0" expanded="false" />
-            <element signature="docComment;field#ordinal#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#ordinal#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#Enum#0;class#Enum#0" expanded="false" />
-            <element signature="method#Enum#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#Enum#0" expanded="false" />
-            <element signature="method#clone#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#Enum#0" expanded="false" />
-            <element signature="method#compareTo#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#getDeclaringClass#0;class#Enum#0" expanded="false" />
-            <element signature="method#getDeclaringClass#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#valueOf#0;class#Enum#0" expanded="false" />
-            <element signature="method#valueOf#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#finalize#0;class#Enum#0" expanded="false" />
-            <element signature="method#finalize#0;class#Enum#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#Enum#0" expanded="false" />
-            <element signature="method#readObject#0;class#Enum#0" expanded="false" />
-            <element signature="method#readObjectNoData#0;class#Enum#0" expanded="false" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Reflection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/StackLStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="60" column="9" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/UpcastEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/ProcessFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="231">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/NonEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/cartoons/EnumImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="897">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Enums.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/AtUnitExample4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RandomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/OSExecuteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/OSExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <folding>
+            <element signature="method#checkForCleanupMethod#0;class#AtUnit#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/ClassNameFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/lll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/lll.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/annotations/atunit/AtUnitRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Meal2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#974#975#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/TypeOfFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/SecurityCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/AlarmPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Set#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#toArray#1;class#Set#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#containsAll#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#addAll#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#retainAll#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#removeAll#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Set#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#Set#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="57" column="80" lean-forward="false" selection-start-line="57" selection-start-column="80" selection-end-line="57" selection-end-column="80" />
-          <folding>
-            <element signature="docComment;class#AbstractSet#0" expanded="false" />
-            <element signature="docComment;method#AbstractSet#0;class#AbstractSet#0" expanded="false" />
-            <element signature="method#AbstractSet#0;class#AbstractSet#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractSet#0" expanded="false" />
-            <element signature="method#equals#0;class#AbstractSet#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractSet#0" expanded="false" />
-            <element signature="method#hashCode#0;class#AbstractSet#0" expanded="false" />
-            <element signature="docComment;method#removeAll#0;class#AbstractSet#0" expanded="false" />
-            <element signature="method#removeAll#0;class#AbstractSet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/BigEnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/EnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="238" column="22" lean-forward="true" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;field#elementType#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;field#universe#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#EnumSet#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#noneOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#noneOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#allOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#allOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#addAll#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#copyOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#copyOf#1;class#EnumSet#0" expanded="false" />
-            <element signature="method#copyOf#1;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#complementOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#complementOf#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#of#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#1;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#2;class#EnumSet#0" expanded="false" />
-            <element signature="method#of#2;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#3;class#EnumSet#0" expanded="false" />
-            <element signature="method#of#3;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#4;class#EnumSet#0" expanded="false" />
-            <element signature="method#of#4;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#of#5;class#EnumSet#0" expanded="false" />
-            <element signature="method#of#5;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#range#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#range#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#addRange#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#clone#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#complement#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#typeCheck#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#typeCheck#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;method#getUniverse#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#getUniverse#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;field#elementType#0;class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="docComment;field#elements#0;class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#SerializationProxy#0;class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#readResolve#0;class#SerializationProxy#0;class#EnumSet#0" expanded="false" />
-            <element signature="method#readObject#0;class#EnumSet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/EnumMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#465#487#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/NotClasses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/CarWash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/OverrideConstantSpecific.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/ConstantSpecificMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/menu/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/PostOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="136" column="27" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/VendingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2091">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#678#695#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-            <element signature="e#3006#3007#0" expanded="true" />
-            <element signature="e#3129#3130#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
-            <element signature="e#3551#3552#0" expanded="true" />
-            <element signature="e#4117#4118#0" expanded="true" />
-            <element signature="e#4163#4164#0" expanded="true" />
-            <element signature="e#4362#4363#0" expanded="true" />
-            <element signature="e#4424#4425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Outcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/Competitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/enumerated/RoShamBo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
