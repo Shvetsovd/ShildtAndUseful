@@ -5,9 +5,10 @@ package company.useful.tmp;
  */
 
 public class Outer {
+    int value;
     //Inner inner = new Inner();
     static class Inner{
-        int value;
+        int value1;
     }
 }
 class OuterTest{
@@ -20,6 +21,6 @@ class OuterTest{
 
         //for static Inner class
         Outer.Inner inner = new Outer.Inner();
-        int v = inner.value;
+        int v = inner.value1;
     }
 }
