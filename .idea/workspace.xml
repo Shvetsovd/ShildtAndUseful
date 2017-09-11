@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d1823a-087a-44eb-a631-673017222741" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AtomicAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/LockAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/SynchronizedAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/WithoutSynchronizationAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/useful/concurrency/AccountTest.java" afterPath="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AccountTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/eckel/gui/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,85 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FastSimulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/FastSimulation.java">
+      <file leaf-file-name="SwingConsole.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/SwingConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronizedAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/SynchronizedAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AtomicAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LockAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/LockAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WithoutSynchronizationAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/WithoutSynchronizationAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReaderWriterList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/ReaderWriterList.java">
+      <file leaf-file-name="Button2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Button2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="338">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,38 +51,100 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActiveObjectDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/ActiveObjectDemo.java">
+      <file leaf-file-name="Button2b.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Button2b.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="253">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadWriteLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <file leaf-file-name="TextArea.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/TextArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BorderLayout1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/BorderLayout1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowLayout1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/FlowLayout1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridLayout1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/GridLayout1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowAddListeners.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/ShowAddListeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Countries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/Countries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -221,20 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/OrnamentalGarden.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/Interrupting.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/CloseResource.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/NIOInterruption.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/MultiLock.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/Interrupting2.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/InterruptingIdiom.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/waxomatic/WaxOMatic.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/NotifyVsNotifyAll.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/Restaurant.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/RestaurantMy.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/waxomatic2/WaxOMatic2.java" />
-        <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/TestBlockingQueues.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/ToastOMatic.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/PipedIO.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/Chopstick.java" />
@@ -272,6 +251,20 @@
         <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/ReaderWriterList.java" />
         <option value="$PROJECT_DIR$/src/com/company/eckel/concurrency/ActiveObjectDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/HelloSwing.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/HelloLabel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/SubmitLabelManipulationTask.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/SubmitSwingProgram.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/SwingConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/Button1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/Button2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/Button2b.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/TextArea.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/BorderLayout1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/FlowLayout1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/GridLayout1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/ShowAddListeners.java" />
+        <option value="$PROJECT_DIR$/src/com/company/eckel/gui/Test.java" />
       </list>
     </option>
   </component>
@@ -319,10 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,7 +343,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
@@ -362,8 +351,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="eckel" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="MapComparisons.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="Test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ShildtAndUseful" type="b2602c69:ProjectViewProjectNode" />
@@ -397,6 +386,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,15 +441,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="FastSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ShowAddListeners">
+    <configuration name="BorderLayout1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.concurrency.*" />
+          <option name="PATTERN" value="company.eckel.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.concurrency.FastSimulation" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.gui.BorderLayout1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -468,14 +461,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="ListComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FlowLayout1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.concurrency.*" />
+          <option name="PATTERN" value="company.eckel.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.concurrency.ListComparisons" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.gui.FlowLayout1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -487,14 +480,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="MapComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GridLayout1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.concurrency.*" />
+          <option name="PATTERN" value="company.eckel.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.concurrency.MapComparisons" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.gui.GridLayout1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -506,14 +499,14 @@
       <module name="ShildtAndUseful" />
       <envs />
     </configuration>
-    <configuration name="ReaderWriterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ShowAddListeners" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.eckel.concurrency.*" />
+          <option name="PATTERN" value="company.eckel.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.eckel.concurrency.ReaderWriterList" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.gui.ShowAddListeners" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -528,11 +521,11 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="company.useful.concurrency.accountatomic.*" />
+          <option name="PATTERN" value="company.eckel.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="company.useful.concurrency.accountatomic.Test" />
+      <option name="MAIN_CLASS_NAME" value="company.eckel.gui.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -743,19 +736,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ListComparisons" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MapComparisons" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FastSimulation" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReaderWriterList" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BorderLayout1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FlowLayout1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GridLayout1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ShowAddListeners" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReaderWriterList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FastSimulation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MapComparisons" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ListComparisons" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ShowAddListeners" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GridLayout1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlowLayout1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BorderLayout1" />
       </list>
     </recent_temporary>
   </component>
@@ -800,8 +793,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22983871" sideWeight="0.4974227" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22107969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22365038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -817,6 +809,7 @@
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="102" y="100" width="580" height="528" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -841,120 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/PipedIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/DeadlockingDiningPhilosophers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/Chopstick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/Philosopher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/FixedDiningPhilosophers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ConcurrentMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CompletionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="90" column="13" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23970">
-          <caret line="1471" column="5" lean-forward="false" selection-start-line="1471" selection-start-column="5" selection-end-line="1471" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/Comparators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/HorseRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Delayed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/DelayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-970">
@@ -987,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21131">
           <caret line="1298" column="22" lean-forward="false" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,47 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="311" column="27" lean-forward="false" selection-start-line="311" selection-start-column="27" selection-end-line="311" selection-end-column="27" />
-          <folding>
-            <element signature="docComment;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;field#sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#nonfairTryAcquireShared#0;class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#tryReleaseShared#0;class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#reducePermits#0;class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#drainPermits#0;class#Sync#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;class#NonfairSync#0;class#Semaphore#0" expanded="false" />
-            <element signature="class#NonfairSync#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;class#FairSync#0;class#Semaphore#0" expanded="false" />
-            <element signature="class#FairSync#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#tryAcquireShared#0;class#FairSync#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#Semaphore#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#Semaphore#1;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#acquireUninterruptibly#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#tryAcquire#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#tryAcquire#1;class#Semaphore#0" expanded="false" />
-            <element signature="method#tryAcquire#1;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#release#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#acquire#1;class#Semaphore#0" expanded="false" />
-            <element signature="method#acquire#1;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#acquireUninterruptibly#1;class#Semaphore#0" expanded="false" />
-            <element signature="method#acquireUninterruptibly#1;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#tryAcquire#2;class#Semaphore#0" expanded="false" />
-            <element signature="method#tryAcquire#2;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#tryAcquire#3;class#Semaphore#0" expanded="false" />
-            <element signature="method#tryAcquire#3;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#release#1;class#Semaphore#0" expanded="false" />
-            <element signature="method#release#1;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#availablePermits#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#drainPermits#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#reducePermits#0;class#Semaphore#0" expanded="false" />
-            <element signature="method#reducePermits#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#isFair#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#hasQueuedThreads#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#getQueueLength#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#getQueuedThreads#0;class#Semaphore#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Semaphore#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,9 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,92 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2418">
           <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="class#Node#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#next#0;class#Node#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#Node#0;class#Node#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#capacity#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#count#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#head#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#last#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#takeLock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#notEmpty#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#putLock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#notFull#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#signalNotEmpty#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#signalNotEmpty#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#signalNotFull#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#signalNotFull#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#enqueue#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#enqueue#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#6206#6248#0" expanded="false" />
-            <element signature="docComment;method#dequeue#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#dequeue#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#6449#6492#0" expanded="false" />
-            <element signature="docComment;method#fullyLock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#fullyLock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#fullyUnlock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#fullyUnlock#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#7005#7015#0" expanded="false" />
-            <element signature="docComment;method#LinkedBlockingQueue#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#LinkedBlockingQueue#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#LinkedBlockingQueue#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#LinkedBlockingQueue#2;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#LinkedBlockingQueue#2;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#8942#9014#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#9252#9320#0" expanded="false" />
-            <element signature="docComment;method#remainingCapacity#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#put#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#10370#10432#0" expanded="false" />
-            <element signature="docComment;method#offer#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#offer#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#offer#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#take#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#poll#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#poll#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#peek#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#unlink#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#unlink#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="e#16422#16448#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#remove#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#contains#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#toArray#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#toArray#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#toArray#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#toString#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#clear#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#drainTo#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#drainTo#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#drainTo#1;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#Itr#0;class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#nextNode#0;class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#nextNode#0;class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#next#0;class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#remove#0;class#Itr#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#LBQSpliterator#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#estimateSize#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#trySplit#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#forEachRemaining#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#tryAdvance#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#characteristics#0;class#LBQSpliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#writeObject#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#LinkedBlockingQueue#0" expanded="false" />
-            <element signature="method#readObject#0;class#LinkedBlockingQueue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,37 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;class#Generation#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="class#Generation#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;field#lock#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;field#trip#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;field#parties#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;field#generation#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;field#count#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#nextGeneration#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#nextGeneration#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#breakBarrier#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#breakBarrier#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#dowait#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#dowait#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="e#7583#7634#0" expanded="false" />
-            <element signature="docComment;method#CyclicBarrier#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#CyclicBarrier#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#CyclicBarrier#1;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#getParties#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#await#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#await#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#await#1;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#await#1;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#isBroken#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#isBroken#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#reset#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#reset#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="docComment;method#getNumberWaiting#0;class#CyclicBarrier#0" expanded="false" />
-            <element signature="method#getNumberWaiting#0;class#CyclicBarrier#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,8 +997,8 @@
         <state relative-caret-position="200">
           <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1292,27 +1008,20 @@
         <state relative-caret-position="-889">
           <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2784#2785#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2784#2785#0" expanded="false" />
+            <element signature="e#2812#2813#0" expanded="false" />
             <element signature="initializer##0;class#LockTest#0" expanded="false" />
             <element signature="e#3802#3845#0" expanded="false" />
-            <element signature="e#4097#4098#0" expanded="true" />
-            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4097#4098#0" expanded="false" />
+            <element signature="e#4131#4132#0" expanded="false" />
             <element signature="method#main#0;class#SynchronizationComparisons#0" expanded="false" />
             <element signature="e#5197#5245#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/AccountTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/AccountTest2.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1324,22 +1033,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountsynchronized/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountsynchronized/AccountTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/eckel/containers/CountingIntegerList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,9 +1046,9 @@
         <state relative-caret-position="217">
           <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1749#1750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1360,7 +1058,7 @@
         <state relative-caret-position="204">
           <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,24 +1068,24 @@
         <state relative-caret-position="277">
           <caret line="85" column="15" lean-forward="false" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/FastSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="476">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="1445">
           <caret line="118" column="17" lean-forward="false" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
           <folding />
         </state>
@@ -1395,22 +1093,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/ReaderWriterList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="425">
           <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/eckel/concurrency/ActiveObjectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="816">
+          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1072#1073#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1428,10 +1126,10 @@
         <state relative-caret-position="68">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1441,8 +1139,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1459,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1469,10 +1167,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/useful/concurrency/accountatomic/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/HelloSwing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/HelloLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/SubmitLabelManipulationTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/SubmitSwingProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Button1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Button2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Button2b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/net/mindview/util/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/TextArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/SwingConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/BorderLayout1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/FlowLayout1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/GridLayout1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/ShowAddListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/eckel/gui/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
           </folding>
         </state>
       </provider>
