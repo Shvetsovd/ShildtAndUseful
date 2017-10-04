@@ -3,28 +3,22 @@ package company.ocajp1;
 
 import company.eckel.net.mindview.util.RandomGenerator;
 
-import java.time.LocalDate;
+import java.time.*;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
-import java.util.ArrayList;
 
 
 class Mock {
 
     public static void main(String[] args) {
-        LocalDate date;
-        LocalTime time;
-        LocalDateTime dateTime;
+        LocalDate date = LocalDate.now();
+        LocalTime time = LocalTime.now();
+        LocalDateTime dateTime = LocalDateTime.now();
 
-        Period period;
-        DateTimeFormatter formatter;
+        System.out.println(dateTime);
 
-        String x = new String("Hello World");
-        String y = "Hello World";
-        System.out.println(x == y); // false
 
 
     }
