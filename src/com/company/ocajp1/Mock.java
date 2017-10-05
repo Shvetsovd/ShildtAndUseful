@@ -1,25 +1,48 @@
 package company.ocajp1;
 
-
-import company.eckel.net.mindview.util.RandomGenerator;
-
-import java.time.*;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
-
-
 class Mock {
+    public static void main(String[] args) {
+        Mock mock = new Mock();
+    }
+
+}
+
+class InitializationFuckBrainClass {
+    static void print(int num) {
+        System.out.print(num + " ");
+    }
+
+    static {
+        print(0);
+    }
+
+    {
+        print(1);
+    }
+
+    static {
+        print(2);
+        new InitializationFuckBrainClass();
+    }
+
+    {
+        print(3);
+    }
+
+    public InitializationFuckBrainClass() {
+        print(999);
+    }
+
+    {
+        print(4);
+    }
+
+    static {
+        print(5);
+    }
 
     public static void main(String[] args) {
-        LocalDate date = LocalDate.now();
-        LocalTime time = LocalTime.now();
-        LocalDateTime dateTime = LocalDateTime.now();
-
-        System.out.println(dateTime);
-
-
-
-    }
+        System.out.println("Start...");
+    } //0 2 1 3 4 999 5 Start...
 }
+
