@@ -47,6 +47,12 @@ class InitializationFuckBrainClass {
     } //0 2 1 3 4 999 5 Strart...
 }
 
+class Some{
 
+    public static void main(String[] args) {
+        Double d1 = 50; //compile error
+
+    }
+}
 
 
