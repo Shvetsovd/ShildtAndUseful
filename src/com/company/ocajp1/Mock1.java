@@ -1,37 +1,23 @@
 package company.ocajp1;
 
-import java.util.concurrent.Executors;
-import java.util.function.BiFunction;
+import java.io.IOException;
 
 final public class Mock1 extends Mock {
-}
-
-class Reptile {
-    public String getName() {
-        return "Reptile";
-    }
-}
-class Alligator extends Reptile {
-    public String getName() {
-        return "Alligator";
-    }
-}
-class Crocodile extends Reptile {
-    public String getName() {
-        return "Crocodile";
-    }
-}
-class ZooWorker {
-    public static void feed(Reptile reptile) {
-        System.out.println("Feeding reptile "+reptile.getName());
-    }
     public static void main(String[] args) {
-        feed(new Alligator());
-        feed(new Crocodile());
-        feed(new Reptile());
     }
 }
 
+class Capybara {
+    String s;
+    public static void main(String[] args) {
+
+        Capybara obj = new Capybara();
+        obj.s += 15E3;
+        obj.s += null;
+        System.out.println(obj.s); //null15000.0null
+
+    }
+}
 
 
 
