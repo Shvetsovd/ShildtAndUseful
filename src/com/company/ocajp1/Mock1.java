@@ -1,34 +1,30 @@
 package company.ocajp1;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-import java.time.*;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
+class SuperException extends Exception {
+}
+
+class SubException extends SuperException {
+}
 
 final public class Mock1 {
-    static public void main(String[] args) throws Exception {
-        Duration dur = Duration.ofHours(7);
+    static public void main(String[] args) {
+        System.out.printf("6/45: %.10f", getChances(6,45));
 
-        System.out.println(dur);
-        /*DateTimeFormatter f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-        System.out.println(f.format(date1));*/
     }
 
-}
-
-interface Intf{
-    default void m(){}
-}
-class A{}
-class B extends A{
-    public void m(){}
-}
-class C extends B implements Intf{
-    void method(){
-        Intf.super.m();
+    private static double getChances(int count, int total) {
+        double result = 1;
+        for (int i = 0; i < count; i++) {
+            result *= (total - i);
+        }
+        return 1 / result * 100;
     }
 }
-class D extends C{}
+
 
 
 
