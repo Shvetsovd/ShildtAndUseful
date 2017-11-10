@@ -1,8 +1,5 @@
 package company.ocajp1;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 class SuperException extends Exception {
 }
@@ -10,9 +7,10 @@ class SuperException extends Exception {
 class SubException extends SuperException {
 }
 
-final public class Mock1 {
+public class Mock1 {
     static public void main(String[] args) {
-        System.out.printf("6/45: %.10f", getChances(6,45));
+
+        System.out.printf("6/45: %.10f", getChances(6, 45));
 
     }
 
@@ -22,6 +20,17 @@ final public class Mock1 {
             result *= (total - i);
         }
         return 1 / result * 100;
+    }
+}
+
+interface Breakable {
+    void breakAccelerate();
+}
+
+class A {
+    public static void main(String[] args) {
+        A a = new A();
+        ((Breakable) a).breakAccelerate();
     }
 }
 
