@@ -10,8 +10,7 @@ class SubException extends SuperException {
 public class Mock1 {
     static public void main(String[] args) {
 
-        System.out.printf("6/45: %.10f", getChances(6, 45));
-
+        //System.out.printf("6/45: %.10f", getChances(6, 45));
     }
 
     private static double getChances(int count, int total) {
@@ -31,6 +30,25 @@ class A {
     public static void main(String[] args) {
         A a = new A();
         ((Breakable) a).breakAccelerate();
+    }
+}
+
+class X {
+    void m(short x) {
+        System.out.println("X.m");
+    }
+}
+
+class Y extends X {
+    void m(int x) {
+        System.out.println("Y.m");
+    }
+}
+
+class Test {
+    public static void main(String[] args) {
+        X y = new Y();
+        y.m((short) 1);
     }
 }
 
