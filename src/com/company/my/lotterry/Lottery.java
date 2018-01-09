@@ -118,35 +118,35 @@ class LotterryTest {
 
         ArrayList<LotterryNumber> nums = new ArrayList<>();
 
-        nums.add(new LotterryNumber(1,39));
-        nums.add(new LotterryNumber(2,36));
-        nums.add(new LotterryNumber(3,40));
-        nums.add(new LotterryNumber(4,35));
-        nums.add(new LotterryNumber(5,42));
-        nums.add(new LotterryNumber(6,34));
-        nums.add(new LotterryNumber(7,43));
-        nums.add(new LotterryNumber(8,40));
-        nums.add(new LotterryNumber(9,33));
-        nums.add(new LotterryNumber(10,53));
-        nums.add(new LotterryNumber(11,45));
-        nums.add(new LotterryNumber(12,45));
-        nums.add(new LotterryNumber(13,40));
-        nums.add(new LotterryNumber(14,39));
-        nums.add(new LotterryNumber(15,40));
-        nums.add(new LotterryNumber(16,30));
-        nums.add(new LotterryNumber(17,39));
-        nums.add(new LotterryNumber(18,49));
-        nums.add(new LotterryNumber(19,41));
-        nums.add(new LotterryNumber(20,44));
+        nums.add(new LotterryNumber(1,231));
+        nums.add(new LotterryNumber(2,228));
+        nums.add(new LotterryNumber(3,238));
+        nums.add(new LotterryNumber(4,214));
+        nums.add(new LotterryNumber(5,228));
+        nums.add(new LotterryNumber(6,212));
+        nums.add(new LotterryNumber(7,234));
+        nums.add(new LotterryNumber(8,226));
+        nums.add(new LotterryNumber(9,223));
+        nums.add(new LotterryNumber(10,240));
+        nums.add(new LotterryNumber(11,223));
+        nums.add(new LotterryNumber(12,255));
+        nums.add(new LotterryNumber(13,214));
+        nums.add(new LotterryNumber(14,218));
+        nums.add(new LotterryNumber(15,220));
+        nums.add(new LotterryNumber(16,212));
+        nums.add(new LotterryNumber(17,215));
+        nums.add(new LotterryNumber(18,224));
+        nums.add(new LotterryNumber(19,239));
+        nums.add(new LotterryNumber(20,219));
         Lottery rapidoBase = new Lottery("RapidoBase", 8, nums);
         rapidoBase.generate();
 
         nums.clear();
 
-        nums.add(new LotterryNumber(1,27));
-        nums.add(new LotterryNumber(2,26));
-        nums.add(new LotterryNumber(3,27));
-        nums.add(new LotterryNumber(4,21));
+        nums.add(new LotterryNumber(1,143));
+        nums.add(new LotterryNumber(2,147));
+        nums.add(new LotterryNumber(3,135));
+        nums.add(new LotterryNumber(4,139));
         Lottery rapidoExtra = new Lottery("RapidoExtra", 1, nums);
         rapidoExtra.generate();
 
