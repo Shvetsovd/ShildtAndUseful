@@ -1,24 +1,37 @@
 package company.ocajp1;
 
+import company.eckel.arrays.RandomGenerator;
+import company.my.lotterry.Lottery;
+
+import java.io.IOException;
+import java.time.*;
+import java.util.ArrayList;
+import java.util.function.Predicate;
+
 /**
- * Created by user on 19.01.2018.
+ * Created by user on 27.01.2018.
  */
 
 interface I{
-    int BAR = 42;
-    static String m(){
-        return "I.m";
-    }
-
+    void m();
 }
+class PortConnector {
 
-class AAA implements I{
     public static void main(String[] args) {
-        System.out.println(BAR);
-        System.out.println(I.BAR);
-
-        System.out.println(I.m());
-        //System.out.println(m());
-        ///System.out.println(new AAA.m());
+        method(()->{});
     }
+    static void method(I i){
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
