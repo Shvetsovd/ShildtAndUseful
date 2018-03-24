@@ -1,15 +1,7 @@
-package company.ocpjp2.$3_ExceptionsAndAssertions;
+package company.ocpjp2.$6_ExceptionsAndAssertions;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.NotSerializableException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.sql.SQLException;
-import java.time.DateTimeException;
 import java.time.format.DateTimeParseException;
-import java.util.Scanner;
 
 /**
  * Created by user on 14.03.2018.
