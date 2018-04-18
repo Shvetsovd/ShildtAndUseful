@@ -24,12 +24,20 @@ public class SingleLinkedList {
         return true;
     }
 
-    private Node addRecursive(Node tail, int value) {
-        if (tail == null) {
-            return new Node(value, null);
+    public void inverse(){
+        tail = inverseRecursive(tail, null, tail);
+    }
+
+    boolean isEquals(SingleLinkedList other){
+        return isEqualRecursive(tail, other.tail);
+    }
+
+    private boolean isEqualRecursive(Node tailA, Node tailB) {
+        if (tailA != null && tailB != null){
+            return tailA.value == tailB.value && isEqualRecursive(tailA.next, tailB.next);
+        } else {
+            return tailA == tailB;
         }
-        tail.next = addRecursive(tail.next, value);
-        return tail;
     }
 
     @Override
@@ -44,19 +52,39 @@ public class SingleLinkedList {
         } else {
             s += tail.value;
             s += " -> ";
-            return toStringRecursive(tail.next, s);
+            s = toStringRecursive(tail.next, s);
         }
+        return s;
+    }
+
+    private Node addRecursive(Node tail, int value) {
+        if (tail == null) {
+            return new Node(value, null);
+        }
+        tail.next = addRecursive(tail.next, value);
+        return tail;
+    }
+
+    private Node inverseRecursive(Node tail, Node left, Node right) {
+        if (right == null){
+            tail = left;
+        } else {
+            Node next = right.next;
+            right.next = left;
+            tail = inverseRecursive(tail, right, next);
+        }
+        return tail;
     }
 }
 
 class Test{
     public static void main(String[] args) {
-        SingleLinkedList list = new SingleLinkedList();
-        System.out.println(list);
-        list.add(15);
-        list.add(12);
-        list.add(35);
-        list.add(7);
-        System.out.println(list);
+        SingleLinkedList listA = new SingleLinkedList();
+        listA.add(15);
+        listA.add(12);
+        listA.add(35);
+        listA.add(7);
+
+        System.out.println(listA);
     }
 }

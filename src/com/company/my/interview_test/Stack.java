@@ -1,17 +1,17 @@
-package company.my.interview.stack;
+package company.my.interview_test;
 
 import java.util.EmptyStackException;
 
 /**
- * Created by user on 23.03.2018.
+ * Created by user on 14.04.2018.
  */
 public class Stack {
-    private static final int START_SIZE = 10;
-    private int[] data;
-    private int tos;
+    private static final int DEFAULT_SIZE = 10;
+    int[] data;
+    int tos;
 
     public Stack() {
-        data = new int[START_SIZE];
+        data = new int[DEFAULT_SIZE];
         tos = -1;
     }
 
@@ -23,27 +23,21 @@ public class Stack {
     }
 
     public int pop() {
-        if (isEmpty()) {
+        if (tos == -1) {
             throw new EmptyStackException();
         }
         return data[tos--];
     }
 
     public int peek() {
-        if (isEmpty()) {
+        if (tos == -1) {
             throw new EmptyStackException();
         }
         return data[tos];
     }
 
-    public boolean isEmpty() {
-        return tos < 0;
-    }
-
     private void grow() {
-        int[] newData = new int[data.length * 2];
-        System.arraycopy(data, 0, newData, 0, data.length);
-        data = newData;
+        int[] nData = new int[data.length * 2];
+        System.arraycopy(data, 0, nData, 0, data.length);
     }
 }
-

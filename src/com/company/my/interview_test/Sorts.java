@@ -1,26 +1,10 @@
-package company.my.interview;
+package company.my.interview_test;
+
 
 import java.util.Arrays;
 
-/**
- * Created by user on 22.03.2018.
- */
 public class Sorts {
-    public static void main(String[] args) {
-        //int[] a = {10, 7, 12, 0, -5, 50, 45};
-        int[] a = {10, 5, 17, 3, 25, 100, 14};
-
-        //bubbleSort(a);
-        //selectionSort(a);
-        //insertionSort(a);
-        quickSort(a, 0, a.length - 1);
-        //mergeSort(a, 0, a.length);
-
-        System.out.println(Arrays.toString(a));
-
-    }
-
-    private static void bubbleSort(int[] a) {
+    public static void bubbleSort(int[] a) {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length - 1; j++) {
                 if (a[j] > a[j + 1]) {
@@ -30,8 +14,7 @@ public class Sorts {
         }
     }
 
-
-    private static void selectionSort(int[] a) {
+    public static void selectionSort(int[] a) {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length; j++) {
                 if (a[j] > a[i]) {
@@ -41,7 +24,7 @@ public class Sorts {
         }
     }
 
-    private static void insertionSort(int[] a) {
+    public static void insertionSort(int[] a) {
         for (int i = 1; i < a.length; i++) {
             for (int j = i; j > 0 && a[j] < a[j - 1]; j--) {
                 swap(a, j, j - 1);
@@ -49,7 +32,8 @@ public class Sorts {
         }
     }
 
-    private static void quickSort(int[] a, int start, int end) {
+
+    public static void quickSort(int[] a, int start, int end) {
         int l = start;
         int r = end;
         int m = l + (r - l) / 2;
@@ -73,7 +57,7 @@ public class Sorts {
         }
     }
 
-    private static void mergeSort(int[] a, int start, int end) {
+    public static void mergeSort(int[] a, int start, int end) {
         int l = start;
         int r = end;
 
@@ -83,21 +67,21 @@ public class Sorts {
             mergeSort(a, m, r);
 
             int[] buf = new int[r - l];
-            int indxL = l;
-            int indxR = m;
+            int i1 = l;
+            int i2 = m;
 
             for (int i = 0; i < buf.length; i++) {
-                if (a[indxL] < a[indxR]) {
-                    buf[i] = a[indxL++];
+                if (a[i1] < a[i2]) {
+                    buf[i] = a[i1++];
                 } else {
-                    buf[i] = a[indxR++];
+                    buf[i] = a[i2++];
                 }
-                if (indxL == m && indxR < r){
-                    System.arraycopy(a, indxR, buf, i+1, r - indxR);
+                if ((i1 == m) && (i2 < r)) {
+                    System.arraycopy(a, i2, buf, i + 1, r - i2);
                     break;
                 }
-                if (indxR == r && indxL < m){
-                    System.arraycopy(a, indxL, buf, i+1, m - indxL);
+                if ((i2 == r) && (i1 < m)) {
+                    System.arraycopy(a, i1, buf, i + 1, m - i1);
                     break;
                 }
             }
@@ -111,5 +95,10 @@ public class Sorts {
         a[j] = tmp;
     }
 
-
+    public static void main(String[] args) {
+        int[] a = {10, 5, 17, 3, 25, 100, 14};
+        //quickSort(a, 0, a.length - 1);
+        mergeSort(a, 0, a.length);
+        System.out.println(Arrays.toString(a));
+    }
 }

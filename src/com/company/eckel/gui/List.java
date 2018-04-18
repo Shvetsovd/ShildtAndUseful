@@ -5,6 +5,7 @@ import javax.swing.border.*;
 import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.lang.ref.Reference;
 
 import static company.eckel.gui.SwingConsole.run;
 
