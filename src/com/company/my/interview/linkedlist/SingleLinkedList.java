@@ -48,7 +48,6 @@ public class SingleLinkedList {
     private String toStringRecursive(Node tail, String s) {
         if (tail == null) {
             s += "*";
-            return s;
         } else {
             s += tail.value;
             s += " -> ";

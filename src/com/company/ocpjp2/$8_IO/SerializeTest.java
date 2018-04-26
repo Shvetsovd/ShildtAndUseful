@@ -10,19 +10,23 @@ public class SerializeTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         String serPath = "E:/foo/baz/person_ser.txt";
         Person p1 = new Person("Petya", "Ivanov", 20);
-        try(ObjectOutputStream out = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(serPath)));) {
+        try(ObjectOutputStream out = new ObjectOutputStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(serPath)));) {
             out.writeObject(p1);
         }
         Person p2;
-        try (ObjectInputStream in = new ObjectInputStream(new BufferedInputStream(new FileInputStream(serPath)))){
+        try (ObjectInputStream in = new ObjectInputStream(
+                new BufferedInputStream(
+                        new FileInputStream(serPath)))){
             p2 = (Person) in.readObject();
         }
-        System.out.println("p1 = " + p1);
-        System.out.println("p2 = " + p2);
+        System.out.println("p1 = " + p1); // p1 = Person{fName='Petya', lName='Ivanov', age=20}
+        System.out.println("p2 = " + p2); // p2 = Person{fName='Petya', lName='Ivanov', age=20}
         System.out.println("p2.setAge(35);");
         p2.setAge(35);
-        System.out.println("p1 = " + p1);
-        System.out.println("p2 = " + p2);
+        System.out.println("p1 = " + p1); // p1 = Person{fName='Petya', lName='Ivanov', age=20}
+        System.out.println("p2 = " + p2); // p2 = Person{fName='Petya', lName='Ivanov', age=35}
     }
 }
 
