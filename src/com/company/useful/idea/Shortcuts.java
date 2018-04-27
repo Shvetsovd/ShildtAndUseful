@@ -69,10 +69,10 @@ public class Shortcuts {
         }
 
         //mn
-        // = Math.min(//, );
+        // = Factorial.min(//, );
 
         //mx
-        // = Math.max(//, );
+        // = Factorial.max(//, );
 
         //thr
         //throw new

@@ -81,7 +81,6 @@ public class RecursiveTasks {
         }
     }
 
-
     private static void swap(int[] a, int i, int j) {
         int tmp = a[i];
         a[i] = a[j];

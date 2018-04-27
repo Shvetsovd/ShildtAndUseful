@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d1823a-087a-44eb-a631-673017222741" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/my/interview_test/nonrecursive/Factorial.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java" afterPath="$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/useful/idea/Shortcuts.java" afterPath="$PROJECT_DIR$/src/com/company/useful/idea/Shortcuts.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +38,21 @@
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="3740">
+              <caret line="222" column="5" lean-forward="false" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+              <folding>
+                <element signature="e#4482#4483#0" expanded="false" />
+                <element signature="e#4522#4523#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInteracting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInteracting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,12 +60,84 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HanoiTowers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/HanoiTowers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/nonrecursive/Factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveTasks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="2907">
               <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
-              <folding />
+              <folding>
+                <element signature="e#0#53706#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#11566#11567#0" expanded="false" />
+                <element signature="e#11597#11598#0" expanded="false" />
+                <element signature="e#26565#26566#0" expanded="false" />
+                <element signature="e#26601#26602#0" expanded="false" />
+                <element signature="e#40171#40172#0" expanded="false" />
+                <element signature="e#40220#40221#0" expanded="false" />
+                <element signature="e#40917#40918#0" expanded="false" />
+                <element signature="e#40958#40959#0" expanded="false" />
+                <element signature="e#41780#41781#0" expanded="false" />
+                <element signature="e#41834#41835#0" expanded="false" />
+                <element signature="e#43077#43078#0" expanded="false" />
+                <element signature="e#43127#43128#0" expanded="false" />
+                <element signature="e#44970#44971#0" expanded="false" />
+                <element signature="e#45051#45052#0" expanded="false" />
+                <element signature="e#51559#51560#0" expanded="false" />
+                <element signature="e#51621#51622#0" expanded="false" />
+                <element signature="e#51882#51883#0" expanded="false" />
+                <element signature="e#51946#51947#0" expanded="false" />
+                <element signature="e#52191#52192#0" expanded="false" />
+                <element signature="e#52255#52256#0" expanded="false" />
+                <element signature="e#52326#52327#0" expanded="false" />
+                <element signature="e#52394#52395#0" expanded="false" />
+                <element signature="e#52670#52671#0" expanded="false" />
+                <element signature="e#52739#52740#0" expanded="false" />
+                <element signature="e#52802#52803#0" expanded="false" />
+                <element signature="e#52848#52849#0" expanded="false" />
+                <element signature="e#53097#53098#0" expanded="false" />
+                <element signature="e#53158#53159#0" expanded="false" />
+                <element signature="e#53238#53239#0" expanded="false" />
+                <element signature="e#53302#53303#0" expanded="false" />
+                <element signature="e#53360#53361#0" expanded="false" />
+                <element signature="e#53422#53423#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,21 +146,35 @@
         <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/Console.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+              <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
               <folding>
+                <element signature="e#0#22243#0" expanded="false" />
+                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#Console#0" expanded="false" />
                 <element signature="docComment;method#writer#0;class#Console#0" expanded="false" />
+                <element signature="e#3272#3273#0" expanded="false" />
+                <element signature="e#3297#3298#0" expanded="false" />
                 <element signature="docComment;method#reader#0;class#Console#0" expanded="false" />
+                <element signature="e#4799#4800#0" expanded="false" />
+                <element signature="e#4828#4829#0" expanded="false" />
                 <element signature="docComment;method#format#0;class#Console#0" expanded="false" />
                 <element signature="method#format#0;class#Console#0" expanded="false" />
                 <element signature="docComment;method#printf#0;class#Console#0" expanded="false" />
+                <element signature="e#8130#8131#0" expanded="false" />
+                <element signature="e#8173#8174#0" expanded="false" />
                 <element signature="docComment;method#readLine#0;class#Console#0" expanded="false" />
                 <element signature="method#readLine#0;class#Console#0" expanded="false" />
                 <element signature="docComment;method#readLine#1;class#Console#0" expanded="false" />
+                <element signature="e#10523#10524#0" expanded="false" />
+                <element signature="e#10558#10559#0" expanded="false" />
                 <element signature="docComment;method#readPassword#0;class#Console#0" expanded="false" />
                 <element signature="method#readPassword#0;class#Console#0" expanded="false" />
                 <element signature="docComment;method#readPassword#1;class#Console#0" expanded="false" />
+                <element signature="e#13621#13622#0" expanded="false" />
+                <element signature="e#13660#13661#0" expanded="false" />
                 <element signature="docComment;method#flush#0;class#Console#0" expanded="false" />
+                <element signature="e#13796#13797#0" expanded="false" />
+                <element signature="e#13822#13823#0" expanded="false" />
                 <element signature="method#readline#0;class#Console#0" expanded="false" />
                 <element signature="method#grow#0;class#Console#0" expanded="false" />
                 <element signature="class#LineReader#0;class#Console#0" expanded="false" />
@@ -107,11 +198,13 @@
       <file leaf-file-name="BufferedReader.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/BufferedReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="1462">
               <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
               <folding>
-                <element signature="e#3011#3012#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
+                <element signature="e#0#19900#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#15257#15258#0" expanded="false" />
+                <element signature="e#15284#15285#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,7 +215,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
+              <folding>
+                <element signature="e#906#907#0" expanded="false" />
+                <element signature="e#932#933#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,638 +228,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/Serializable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="167" column="3" lean-forward="false" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
               <folding>
-                <element signature="e#0#7584#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectOutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/ObjectOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="369" column="7" lean-forward="false" selection-start-line="369" selection-start-column="7" selection-end-line="369" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#91879#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#Caches#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#subclassAudits#0;class#Caches#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#subclassAuditsQueue#0;class#Caches#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#bout#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#handles#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#subs#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#protocol#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#depth#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#primVals#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#enableOverride#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#enableReplace#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#curContext#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#curPut#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#debugInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#extendedDebugInfo#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#ObjectOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#ObjectOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#ObjectOutputStream#1;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#ObjectOutputStream#1;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#useProtocolVersion#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#useProtocolVersion#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeObjectOverride#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeObjectOverride#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeUnshared#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeUnshared#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#defaultWriteObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#defaultWriteObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#putFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#putFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#reset#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#reset#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#annotateClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#annotateClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#annotateProxyClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#annotateProxyClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#replaceObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#replaceObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#enableReplaceObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#enableReplaceObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeStreamHeader#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeStreamHeader#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeClassDescriptor#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeClassDescriptor#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#1;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#1;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#2;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#2;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#flush#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#flush#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#drain#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#drain#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#close#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#close#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeBoolean#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBoolean#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeByte#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeByte#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeShort#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeShort#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeChar#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeChar#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeInt#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeInt#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeLong#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeLong#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeFloat#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFloat#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeDouble#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeDouble#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeBytes#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBytes#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeChars#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeChars#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeUTF#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeUTF#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#0;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#1;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#2;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#3;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#4;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#5;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#6;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#7;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#put#8;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#0;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#getProtocolVersion#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#41248#41249#0" expanded="false" />
-                <element signature="e#41279#41280#0" expanded="false" />
-                <element signature="docComment;method#writeTypeString#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeTypeString#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#verifySubclass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#verifySubclass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#auditSubclass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#auditSubclass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#43138:44025" expanded="false" />
-                <element signature="method#run#0;class#43138:44025" expanded="false" />
-                <element signature="docComment;method#clear#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#clear#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeObject0#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeObject0#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeNull#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeNull#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeHandle#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeHandle#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeClass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeClassDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeClassDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#isCustomSubclass#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeProxyDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeProxyDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeNonProxyDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeNonProxyDesc#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeString#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeString#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeArray#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeArray#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeEnum#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeEnum#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeOrdinaryObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeOrdinaryObject#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeExternalData#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeExternalData#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeSerialData#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeSerialData#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#defaultWriteFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#defaultWriteFields#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeFatalException#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFatalException#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#floatsToBytes#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#doublesToBytes#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#desc#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#primVals#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#objVals#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#PutFieldImpl#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#PutFieldImpl#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#put#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#62593#62594#0" expanded="false" />
-                <element signature="e#62664#62665#0" expanded="false" />
-                <element signature="e#62714#62715#0" expanded="false" />
-                <element signature="e#62803#62804#0" expanded="false" />
-                <element signature="e#62854#62855#0" expanded="false" />
-                <element signature="e#62940#62941#0" expanded="false" />
-                <element signature="e#62989#62990#0" expanded="false" />
-                <element signature="e#63075#63076#0" expanded="false" />
-                <element signature="e#63126#63127#0" expanded="false" />
-                <element signature="e#63212#63213#0" expanded="false" />
-                <element signature="e#63262#63263#0" expanded="false" />
-                <element signature="e#63346#63347#0" expanded="false" />
-                <element signature="e#63398#63399#0" expanded="false" />
-                <element signature="e#63486#63487#0" expanded="false" />
-                <element signature="e#63538#63539#0" expanded="false" />
-                <element signature="e#63611#63612#0" expanded="false" />
-                <element signature="method#write#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeFields#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFields#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#getFieldOffset#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#getFieldOffset#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#MAX_BLOCK_SIZE#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#MAX_HEADER_SIZE#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#CHAR_BUF_SIZE#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#buf#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#hbuf#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#cbuf#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#blkmode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#pos#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#out#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;field#dout#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#BlockDataOutputStream#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#BlockDataOutputStream#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#setBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#setBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#getBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#69483#69484#0" expanded="false" />
-                <element signature="e#69521#69522#0" expanded="false" />
-                <element signature="method#write#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#2;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#flush#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#close#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#3;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#write#3;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#drain#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#drain#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeBlockHeader#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBlockHeader#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBoolean#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeByte#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeChar#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeShort#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeInt#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFloat#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeLong#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeDouble#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBytes#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeChars#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeUTF#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeBooleans#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeChars#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeShorts#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeInts#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeFloats#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeLongs#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeDoubles#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#getUTFLength#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#getUTFLength#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeUTF#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeUTF#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeLongUTF#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeLongUTF#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeLongUTF#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeLongUTF#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#writeUTFBody#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#writeUTFBody#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#HandleTable#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#HandleTable#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#assign#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#assign#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#lookup#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#lookup#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#clear#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#87358#87359#0" expanded="false" />
-                <element signature="e#87393#87394#0" expanded="false" />
-                <element signature="docComment;method#insert#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#insert#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#growSpine#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#growSpine#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#growEntries#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#growEntries#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#hash#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#88794#88795#0" expanded="false" />
-                <element signature="e#88866#88867#0" expanded="false" />
-                <element signature="docComment;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#ReplaceTable#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#ReplaceTable#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#assign#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#assign#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#lookup#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#lookup#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#clear#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#90352#90353#0" expanded="false" />
-                <element signature="e#90394#90395#0" expanded="false" />
-                <element signature="docComment;method#grow#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#grow#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="docComment;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#90929#90930#0" expanded="false" />
-                <element signature="e#90978#90979#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#91085#91086#0" expanded="false" />
-                <element signature="e#91122#91123#0" expanded="false" />
-                <element signature="docComment;method#pop#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#91227#91228#0" expanded="false" />
-                <element signature="e#91279#91280#0" expanded="false" />
-                <element signature="docComment;method#push#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="e#91396#91397#0" expanded="false" />
-                <element signature="e#91445#91446#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-                <element signature="method#toString#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/ObjectInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="362" column="10" lean-forward="false" selection-start-line="362" selection-start-column="10" selection-end-line="362" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#137416#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#NULL_HANDLE#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#unsharedMarker#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#primClasses#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="initializer##0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#Caches#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#subclassAudits#0;class#Caches#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#subclassAuditsQueue#0;class#Caches#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#bin#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#vlist#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#depth#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#closed#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#handles#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#passHandle#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#defaultDataEnd#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#primVals#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#enableOverride#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#enableResolve#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#ObjectInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#ObjectInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#ObjectInputStream#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#ObjectInputStream#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readObjectOverride#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readObjectOverride#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUnshared#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUnshared#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#defaultReadObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#defaultReadObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFields#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFields#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#registerValidation#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#registerValidation#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#resolveClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#resolveClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#resolveProxyClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#resolveProxyClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#resolveObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#resolveObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#enableResolveObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#enableResolveObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readStreamHeader#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readStreamHeader#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readClassDescriptor#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readClassDescriptor#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#available#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#available#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#close#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#close#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readBoolean#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readBoolean#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readByte#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readByte#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUnsignedByte#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUnsignedByte#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readChar#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readChar#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readShort#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readShort#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUnsignedShort#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUnsignedShort#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readInt#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readInt#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readLong#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLong#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFloat#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFloat#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readDouble#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readDouble#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFully#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFully#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#1;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#skipBytes#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skipBytes#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readLine#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLine#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUTF#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUTF#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#getObjectStreamClass#0;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#defaulted#0;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#0;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#1;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#2;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#3;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#4;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#5;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#6;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#7;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#get#8;class#GetField#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#verifySubclass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#verifySubclass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#auditSubclass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#auditSubclass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#clear#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readObject0#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readObject0#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#checkResolve#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#checkResolve#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readTypeString#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readTypeString#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readNull#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readNull#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readHandle#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readHandle#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readClass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readClassDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readClassDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#isCustomSubclass#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readProxyDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readProxyDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#64484#64535#0" expanded="false" />
-                <element signature="docComment;method#readNonProxyDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readNonProxyDesc#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readString#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readString#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readArray#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readArray#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readEnum#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readEnum#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readOrdinaryObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readOrdinaryObject#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readExternalData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readExternalData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readSerialData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readSerialData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#skipCustomData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skipCustomData#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#defaultReadFields#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#defaultReadFields#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFatalException#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFatalException#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#handleReset#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#handleReset#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#bytesToFloats#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#bytesToDoubles#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#latestUserDefinedLoader#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#83455#83456#0" expanded="false" />
-                <element signature="e#83515#83516#0" expanded="false" />
-                <element signature="docComment;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#desc#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#primVals#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#objVals#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#objHandles#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#GetFieldImpl#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#GetFieldImpl#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#84406#84407#0" expanded="false" />
-                <element signature="e#84441#84442#0" expanded="false" />
-                <element signature="method#defaulted#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#1;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#2;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#3;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#4;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#5;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#6;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#7;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#8;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readFields#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFields#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#getFieldOffset#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#getFieldOffset#0;class#GetFieldImpl#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#Callback#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#Callback#0;class#Callback#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#list#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#ValidationList#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#ValidationList#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#register#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#register#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#doCallbacks#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#doCallbacks#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#ValidationList#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#91207#91208#0" expanded="false" />
-                <element signature="e#91242#91243#0" expanded="false" />
-                <element signature="docComment;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#in#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#peekb#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#PeekInputStream#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#91660#91661#0" expanded="false" />
-                <element signature="e#91696#91697#0" expanded="false" />
-                <element signature="docComment;method#peek#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#peek#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#1;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skip#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#available#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#close#0;class#PeekInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#MAX_BLOCK_SIZE#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#MAX_HEADER_SIZE#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#CHAR_BUF_SIZE#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#HEADER_BLOCKED#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#buf#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#hbuf#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#cbuf#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#blkmode#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#pos#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#end#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#unread#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#in#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#din#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#BlockDataInputStream#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#BlockDataInputStream#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#setBlockDataMode#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#setBlockDataMode#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#getBlockDataMode#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#96831#96832#0" expanded="false" />
-                <element signature="e#96869#96870#0" expanded="false" />
-                <element signature="docComment;method#skipBlockData#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skipBlockData#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readBlockHeader#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readBlockHeader#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#refill#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#refill#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#currentBlockRemaining#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#currentBlockRemaining#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#peek#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#peek#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#peekByte#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#peekByte#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#1;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skip#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#available#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#close#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#2;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#read#2;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#1;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFully#2;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#skipBytes#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readBoolean#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readByte#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUnsignedByte#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readChar#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readShort#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUnsignedShort#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readInt#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFloat#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLong#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readDouble#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUTF#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLine#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readBooleans#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readChars#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readShorts#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readInts#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readFloats#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLongs#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readDoubles#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readLongUTF#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readLongUTF#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUTFBody#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUTFBody#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUTFSpan#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUTFSpan#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#readUTFChar#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#readUTFChar#0;class#BlockDataInputStream#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#status#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#entries#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#deps#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#lowDep#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;field#size#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#HandleTable#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#HandleTable#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#assign#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#assign#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#markDependency#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#markDependency#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#markException#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#markException#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#finish#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#finish#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#setObject#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#setObject#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#lookupObject#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#lookupObject#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#lookupException#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#lookupException#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#clear#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#134238#134239#0" expanded="false" />
-                <element signature="e#134273#134274#0" expanded="false" />
-                <element signature="docComment;method#grow#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#grow#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="docComment;class#HandleList#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="class#HandleList#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#HandleList#0;class#HandleList#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#add#0;class#HandleList#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#get#0;class#HandleList#0;class#HandleTable#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="e#135718#135719#0" expanded="false" />
-                <element signature="e#135761#135762#0" expanded="false" />
-                <element signature="docComment;method#cloneArray#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#cloneArray#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#validateDescriptor#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="method#setValidator#0;class#ObjectInputStream#0" expanded="false" />
-                <element signature="initializer##1;class#ObjectInputStream#0" expanded="false" />
+                <element signature="e#1501#1502#0" expanded="false" />
+                <element signature="e#1529#1530#0" expanded="false" />
+                <element signature="e#1561#1562#0" expanded="false" />
+                <element signature="e#1589#1590#0" expanded="false" />
+                <element signature="e#1616#1617#0" expanded="false" />
+                <element signature="e#1642#1643#0" expanded="false" />
+                <element signature="e#1684#1685#0" expanded="false" />
+                <element signature="e#1718#1719#0" expanded="false" />
+                <element signature="e#1760#1761#0" expanded="false" />
+                <element signature="e#1794#1795#0" expanded="false" />
+                <element signature="e#1829#1830#0" expanded="false" />
+                <element signature="e#1859#1860#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -834,9 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/TestConnection.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/ExecuteMethodTests.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/___.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview/CharsCountTask.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview/stack/StringEntryCountTest.java" />
@@ -870,7 +344,6 @@
         <option value="$PROJECT_DIR$/src/com/company/my/interview_test/ArraysUtilities.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview_test/Fact.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview_test/Fib.java" />
-        <option value="$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview_test/Search.java" />
         <option value="$PROJECT_DIR$/src/com/company/my/interview_test/HanoiTowers.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/FileTests.java" />
@@ -885,6 +358,10 @@
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest2.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/BlaBlaBla.java" />
+        <option value="$PROJECT_DIR$/src/com/company/my/interview_test/nonrecursive/Math.java" />
+        <option value="$PROJECT_DIR$/src/com/company/my/interview_test/nonrecursive/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java" />
       </list>
     </option>
   </component>
@@ -932,6 +409,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1154,15 +632,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="interview_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShildtAndUseful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nonrecursive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShildtAndUseful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fileparser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1220,27 +753,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserInteracting">
-    <configuration default="false" name="UserInputTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="company.ocpjp2.$8_IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="company.ocpjp2.$8_IO.UserInputTests" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ShildtAndUseful" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration default="false" name="SerializeTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1309,6 +822,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="company.ocpjp2.$8_IO.UserInteracting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ShildtAndUseful" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="company.my.interview_test.nonrecursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="company.my.interview_test.nonrecursive.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1526,19 +1059,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.UserInputTests" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SerializeTest2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CopyUtilities" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SerializeTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UserInteracting" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SerializeTest2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CopyUtilities" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SerializeTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UserInteracting" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserInteracting" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CopyUtilities" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SerializeTest2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SerializeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UserInputTests" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UserInteracting" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CopyUtilities" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SerializeTest2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SerializeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1600,7 +1133,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.48969072" order="6" side_tool="false" content_ui="tabs" />
@@ -1611,13 +1144,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49804434" sideWeight="0.53070176" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1531151" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21752904" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22983871" sideWeight="0.4974227" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2882788" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1631,7 +1165,6 @@
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="102" y="100" width="580" height="528" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08177083" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28893661" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1688,19 +1221,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/Fact.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/Fib.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/ArraysUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1729,13 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/HanoiTowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1939,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1955,39 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#14529#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;field#path#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#FileInputStream#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#FileInputStream#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#FileInputStream#1;class#FileInputStream#0" expanded="false" />
-            <element signature="method#FileInputStream#1;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#FileInputStream#2;class#FileInputStream#0" expanded="false" />
-            <element signature="method#FileInputStream#2;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#open0#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#open#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#open#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#read#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#read#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#read#1;class#FileInputStream#0" expanded="false" />
-            <element signature="method#read#1;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#read#2;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#skip#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#available#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#close#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#close#0;class#FileInputStream#0" expanded="false" />
-            <element signature="class#12147:12261" expanded="false" />
-            <element signature="method#close#0;class#12147:12261" expanded="false" />
-            <element signature="docComment;method#getFD#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#getFD#0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#getChannel#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#getChannel#0;class#FileInputStream#0" expanded="false" />
-            <element signature="initializer##0;class#FileInputStream#0" expanded="false" />
-            <element signature="docComment;method#finalize#0;class#FileInputStream#0" expanded="false" />
-            <element signature="method#finalize#0;class#FileInputStream#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1995,19 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#5579#0" expanded="false" />
-            <element signature="docComment;class#OutputStream#0" expanded="false" />
-            <element signature="docComment;method#write#0;class#OutputStream#0" expanded="false" />
-            <element signature="docComment;method#write#1;class#OutputStream#0" expanded="false" />
-            <element signature="method#write#1;class#OutputStream#0" expanded="false" />
-            <element signature="docComment;method#write#2;class#OutputStream#0" expanded="false" />
-            <element signature="method#write#2;class#OutputStream#0" expanded="false" />
-            <element signature="docComment;method#flush#0;class#OutputStream#0" expanded="false" />
-            <element signature="method#flush#0;class#OutputStream#0" expanded="false" />
-            <element signature="docComment;method#close#0;class#OutputStream#0" expanded="false" />
-            <element signature="method#close#0;class#OutputStream#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2015,9 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="167" column="3" lean-forward="false" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#7584#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2026,8 +1492,6 @@
         <state relative-caret-position="1003">
           <caret line="369" column="7" lean-forward="false" selection-start-line="369" selection-start-column="7" selection-end-line="369" selection-end-column="7" />
           <folding>
-            <element signature="e#0#91879#0" expanded="false" />
-            <element signature="imports" expanded="false" />
             <element signature="docComment;class#ObjectOutputStream#0" expanded="false" />
             <element signature="class#Caches#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;field#subclassAudits#0;class#Caches#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2123,8 +1587,6 @@
             <element signature="docComment;method#put#8;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#write#0;class#PutField#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#getProtocolVersion#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#41248#41249#0" expanded="false" />
-            <element signature="e#41279#41280#0" expanded="false" />
             <element signature="docComment;method#writeTypeString#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#writeTypeString#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#verifySubclass#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2176,22 +1638,6 @@
             <element signature="docComment;method#PutFieldImpl#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#PutFieldImpl#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#put#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#62593#62594#0" expanded="false" />
-            <element signature="e#62664#62665#0" expanded="false" />
-            <element signature="e#62714#62715#0" expanded="false" />
-            <element signature="e#62803#62804#0" expanded="false" />
-            <element signature="e#62854#62855#0" expanded="false" />
-            <element signature="e#62940#62941#0" expanded="false" />
-            <element signature="e#62989#62990#0" expanded="false" />
-            <element signature="e#63075#63076#0" expanded="false" />
-            <element signature="e#63126#63127#0" expanded="false" />
-            <element signature="e#63212#63213#0" expanded="false" />
-            <element signature="e#63262#63263#0" expanded="false" />
-            <element signature="e#63346#63347#0" expanded="false" />
-            <element signature="e#63398#63399#0" expanded="false" />
-            <element signature="e#63486#63487#0" expanded="false" />
-            <element signature="e#63538#63539#0" expanded="false" />
-            <element signature="e#63611#63612#0" expanded="false" />
             <element signature="method#write#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#writeFields#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#writeFields#0;class#PutFieldImpl#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2214,8 +1660,6 @@
             <element signature="docComment;method#setBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#setBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#getBlockDataMode#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#69483#69484#0" expanded="false" />
-            <element signature="e#69521#69522#0" expanded="false" />
             <element signature="method#write#0;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#write#1;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#write#2;class#BlockDataOutputStream#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2266,8 +1710,6 @@
             <element signature="docComment;method#clear#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#clear#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#size#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#87358#87359#0" expanded="false" />
-            <element signature="e#87393#87394#0" expanded="false" />
             <element signature="docComment;method#insert#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#insert#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#growSpine#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2275,8 +1717,6 @@
             <element signature="docComment;method#growEntries#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#growEntries#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#hash#0;class#HandleTable#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#88794#88795#0" expanded="false" />
-            <element signature="e#88866#88867#0" expanded="false" />
             <element signature="docComment;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#ReplaceTable#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
@@ -2288,23 +1728,13 @@
             <element signature="docComment;method#clear#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#clear#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;method#size#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#90352#90353#0" expanded="false" />
-            <element signature="e#90394#90395#0" expanded="false" />
             <element signature="docComment;method#grow#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#grow#0;class#ReplaceTable#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="docComment;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#90929#90930#0" expanded="false" />
-            <element signature="e#90978#90979#0" expanded="false" />
             <element signature="docComment;method#clear#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#91085#91086#0" expanded="false" />
-            <element signature="e#91122#91123#0" expanded="false" />
             <element signature="docComment;method#pop#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#91227#91228#0" expanded="false" />
-            <element signature="e#91279#91280#0" expanded="false" />
             <element signature="docComment;method#push#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
-            <element signature="e#91396#91397#0" expanded="false" />
-            <element signature="e#91445#91446#0" expanded="false" />
             <element signature="docComment;method#toString#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
             <element signature="method#toString#0;class#DebugTraceInfoStack#0;class#ObjectOutputStream#0" expanded="false" />
           </folding>
@@ -2641,7 +2071,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#1501#1502#0" expanded="false" />
+            <element signature="e#1529#1530#0" expanded="false" />
+            <element signature="e#1561#1562#0" expanded="false" />
+            <element signature="e#1589#1590#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
+            <element signature="e#1642#1643#0" expanded="false" />
+            <element signature="e#1684#1685#0" expanded="false" />
+            <element signature="e#1718#1719#0" expanded="false" />
+            <element signature="e#1760#1761#0" expanded="false" />
+            <element signature="e#1794#1795#0" expanded="false" />
+            <element signature="e#1829#1830#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2649,55 +2092,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="3740">
+          <caret line="222" column="5" lean-forward="false" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+          <folding>
+            <element signature="e#4482#4483#0" expanded="false" />
+            <element signature="e#4522#4523#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1462">
           <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
           <folding>
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
+            <element signature="e#0#19900#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#15257#15258#0" expanded="false" />
+            <element signature="e#15284#15285#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="2907">
           <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#0#53706#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11566#11567#0" expanded="false" />
+            <element signature="e#11597#11598#0" expanded="false" />
+            <element signature="e#26565#26566#0" expanded="false" />
+            <element signature="e#26601#26602#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="false" />
+            <element signature="e#40220#40221#0" expanded="false" />
+            <element signature="e#40917#40918#0" expanded="false" />
+            <element signature="e#40958#40959#0" expanded="false" />
+            <element signature="e#41780#41781#0" expanded="false" />
+            <element signature="e#41834#41835#0" expanded="false" />
+            <element signature="e#43077#43078#0" expanded="false" />
+            <element signature="e#43127#43128#0" expanded="false" />
+            <element signature="e#44970#44971#0" expanded="false" />
+            <element signature="e#45051#45052#0" expanded="false" />
+            <element signature="e#51559#51560#0" expanded="false" />
+            <element signature="e#51621#51622#0" expanded="false" />
+            <element signature="e#51882#51883#0" expanded="false" />
+            <element signature="e#51946#51947#0" expanded="false" />
+            <element signature="e#52191#52192#0" expanded="false" />
+            <element signature="e#52255#52256#0" expanded="false" />
+            <element signature="e#52326#52327#0" expanded="false" />
+            <element signature="e#52394#52395#0" expanded="false" />
+            <element signature="e#52670#52671#0" expanded="false" />
+            <element signature="e#52739#52740#0" expanded="false" />
+            <element signature="e#52802#52803#0" expanded="false" />
+            <element signature="e#52848#52849#0" expanded="false" />
+            <element signature="e#53097#53098#0" expanded="false" />
+            <element signature="e#53158#53159#0" expanded="false" />
+            <element signature="e#53238#53239#0" expanded="false" />
+            <element signature="e#53302#53303#0" expanded="false" />
+            <element signature="e#53360#53361#0" expanded="false" />
+            <element signature="e#53422#53423#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/Console.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+          <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
           <folding>
+            <element signature="e#0#22243#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Console#0" expanded="false" />
             <element signature="docComment;method#writer#0;class#Console#0" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3297#3298#0" expanded="false" />
             <element signature="docComment;method#reader#0;class#Console#0" expanded="false" />
+            <element signature="e#4799#4800#0" expanded="false" />
+            <element signature="e#4828#4829#0" expanded="false" />
             <element signature="docComment;method#format#0;class#Console#0" expanded="false" />
             <element signature="method#format#0;class#Console#0" expanded="false" />
             <element signature="docComment;method#printf#0;class#Console#0" expanded="false" />
+            <element signature="e#8130#8131#0" expanded="false" />
+            <element signature="e#8173#8174#0" expanded="false" />
             <element signature="docComment;method#readLine#0;class#Console#0" expanded="false" />
             <element signature="method#readLine#0;class#Console#0" expanded="false" />
             <element signature="docComment;method#readLine#1;class#Console#0" expanded="false" />
+            <element signature="e#10523#10524#0" expanded="false" />
+            <element signature="e#10558#10559#0" expanded="false" />
             <element signature="docComment;method#readPassword#0;class#Console#0" expanded="false" />
             <element signature="method#readPassword#0;class#Console#0" expanded="false" />
             <element signature="docComment;method#readPassword#1;class#Console#0" expanded="false" />
+            <element signature="e#13621#13622#0" expanded="false" />
+            <element signature="e#13660#13661#0" expanded="false" />
             <element signature="docComment;method#flush#0;class#Console#0" expanded="false" />
+            <element signature="e#13796#13797#0" expanded="false" />
+            <element signature="e#13822#13823#0" expanded="false" />
             <element signature="method#readline#0;class#Console#0" expanded="false" />
             <element signature="method#grow#0;class#Console#0" expanded="false" />
             <element signature="class#LineReader#0;class#Console#0" expanded="false" />
@@ -2717,13 +2217,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/BlaBlaBla.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/HanoiTowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/nonrecursive/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/RecursiveTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
