@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d1823a-087a-44eb-a631-673017222741" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/my/interview/tree/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/my/interview/tree/Tree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/my/interview/linkedlist/SingleLinkedList.java" afterPath="$PROJECT_DIR$/src/com/company/my/interview/linkedlist/SingleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest.java" afterPath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest2.java" afterPath="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,12 +33,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
+            <state relative-caret-position="493">
+              <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInteracting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/Console.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+              <folding>
+                <element signature="docComment;class#Console#0" expanded="false" />
+                <element signature="docComment;method#writer#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#reader#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#format#0;class#Console#0" expanded="false" />
+                <element signature="method#format#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#printf#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#readLine#0;class#Console#0" expanded="false" />
+                <element signature="method#readLine#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#readLine#1;class#Console#0" expanded="false" />
+                <element signature="docComment;method#readPassword#0;class#Console#0" expanded="false" />
+                <element signature="method#readPassword#0;class#Console#0" expanded="false" />
+                <element signature="docComment;method#readPassword#1;class#Console#0" expanded="false" />
+                <element signature="docComment;method#flush#0;class#Console#0" expanded="false" />
+                <element signature="method#readline#0;class#Console#0" expanded="false" />
+                <element signature="method#grow#0;class#Console#0" expanded="false" />
+                <element signature="class#LineReader#0;class#Console#0" expanded="false" />
+                <element signature="method#LineReader#0;class#LineReader#0;class#Console#0" expanded="false" />
+                <element signature="method#ready#0;class#LineReader#0;class#Console#0" expanded="false" />
+                <element signature="method#read#0;class#LineReader#0;class#Console#0" expanded="false" />
+                <element signature="e#19952#20013#0" expanded="false" />
+                <element signature="class#20281:20604" expanded="false" />
+                <element signature="method#run#0;class#20281:20604" expanded="false" />
+                <element signature="e#20663#20723#0" expanded="false" />
+                <element signature="class#20820:21327" expanded="false" />
+                <element signature="method#console#0;class#20820:21327" expanded="false" />
+                <element signature="method#charset#0;class#20820:21327" expanded="false" />
+                <element signature="e#21150#21205#0" expanded="false" />
+                <element signature="class#21927:21976" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedReader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/BufferedReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+              <folding>
+                <element signature="e#3011#3012#0" expanded="true" />
+                <element signature="e#3058#3059#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,10 +122,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#906#907#0" expanded="false" />
-                <element signature="e#932#933#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,28 +133,6 @@
             <state relative-caret-position="153">
               <caret line="9" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/OutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#5579#0" expanded="false" />
-                <element signature="docComment;class#OutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#0;class#OutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#1;class#OutputStream#0" expanded="false" />
-                <element signature="method#write#1;class#OutputStream#0" expanded="false" />
-                <element signature="docComment;method#write#2;class#OutputStream#0" expanded="false" />
-                <element signature="method#write#2;class#OutputStream#0" expanded="false" />
-                <element signature="docComment;method#flush#0;class#OutputStream#0" expanded="false" />
-                <element signature="method#flush#0;class#OutputStream#0" expanded="false" />
-                <element signature="docComment;method#close#0;class#OutputStream#0" expanded="false" />
-                <element signature="method#close#0;class#OutputStream#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -725,68 +769,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#14529#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;field#path#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#FileInputStream#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#FileInputStream#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#FileInputStream#1;class#FileInputStream#0" expanded="false" />
-                <element signature="method#FileInputStream#1;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#FileInputStream#2;class#FileInputStream#0" expanded="false" />
-                <element signature="method#FileInputStream#2;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#open0#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#open#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#open#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#read#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#1;class#FileInputStream#0" expanded="false" />
-                <element signature="method#read#1;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#read#2;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#skip#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#available#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#close#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#close#0;class#FileInputStream#0" expanded="false" />
-                <element signature="class#12147:12261" expanded="false" />
-                <element signature="method#close#0;class#12147:12261" expanded="false" />
-                <element signature="docComment;method#getFD#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#getFD#0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#getChannel#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#getChannel#0;class#FileInputStream#0" expanded="false" />
-                <element signature="initializer##0;class#FileInputStream#0" expanded="false" />
-                <element signature="docComment;method#finalize#0;class#FileInputStream#0" expanded="false" />
-                <element signature="method#finalize#0;class#FileInputStream#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/FileTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/BasicTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -852,7 +834,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/my/interview/stack/GStack.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/TestConnection.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/ExecuteMethodTests.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$10_JDBC/___.java" />
@@ -903,6 +884,7 @@
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/SerializeTest2.java" />
         <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java" />
       </list>
     </option>
   </component>
@@ -950,8 +932,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1039,10 +1019,6 @@
               <option name="myItemId" value="$8_IO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1068,6 +1044,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="$8_IO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1180,6 +1160,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -1238,27 +1220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyUtilities">
-    <configuration default="false" name="ConsoleToFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="company.ocpjp2.$8_IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="company.ocpjp2.$8_IO.ConsoleToFileWriter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ShildtAndUseful" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.UserInteracting">
     <configuration default="false" name="UserInputTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1327,6 +1289,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="company.ocpjp2.$8_IO.SerializeTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ShildtAndUseful" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserInteracting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="company.ocpjp2.$8_IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="company.ocpjp2.$8_IO.UserInteracting" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1544,19 +1526,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ConsoleToFileWriter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UserInputTests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SerializeTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CopyUtilities" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SerializeTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.UserInputTests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SerializeTest2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CopyUtilities" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SerializeTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UserInteracting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CopyUtilities" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SerializeTest2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SerializeTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UserInputTests" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ConsoleToFileWriter" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UserInteracting" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CopyUtilities" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SerializeTest2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SerializeTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UserInputTests" />
       </list>
     </recent_temporary>
   </component>
@@ -1629,14 +1611,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49804434" sideWeight="0.53070176" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4213305" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1531151" sideWeight="0.46929824" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22983871" sideWeight="0.4974227" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28893661" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1650,6 +1631,7 @@
       <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="102" y="100" width="580" height="528" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08177083" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28893661" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1706,20 +1688,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/DeadLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/Fact.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/Fib.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/my/interview_test/ArraysUtilities.java">
@@ -1852,14 +1820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="712" column="25" lean-forward="false" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1874,7 +1834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,131 +1848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="1396" column="21" lean-forward="true" selection-start-line="1396" selection-start-column="21" selection-end-line="1396" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;class#File#0" expanded="false" />
-            <element signature="docComment;field#fs#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#path#0;class#File#0" expanded="false" />
-            <element signature="docComment;class#PathStatus#0;class#File#0" expanded="false" />
-            <element signature="class#PathStatus#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#status#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#isInvalid#0;class#File#0" expanded="false" />
-            <element signature="method#isInvalid#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#prefixLength#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getPrefixLength#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#separatorChar#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#separator#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#pathSeparatorChar#0;class#File#0" expanded="false" />
-            <element signature="docComment;field#pathSeparator#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#0;class#File#0" expanded="false" />
-            <element signature="method#File#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#1;class#File#0" expanded="false" />
-            <element signature="method#File#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#2;class#File#0" expanded="false" />
-            <element signature="method#File#2;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#3;class#File#0" expanded="false" />
-            <element signature="method#File#3;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#4;class#File#0" expanded="false" />
-            <element signature="method#File#4;class#File#0" expanded="false" />
-            <element signature="docComment;method#File#5;class#File#0" expanded="false" />
-            <element signature="method#File#5;class#File#0" expanded="false" />
-            <element signature="docComment;method#getName#0;class#File#0" expanded="false" />
-            <element signature="method#getName#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getParent#0;class#File#0" expanded="false" />
-            <element signature="method#getParent#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getParentFile#0;class#File#0" expanded="false" />
-            <element signature="method#getParentFile#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getPath#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#isAbsolute#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getAbsolutePath#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getAbsoluteFile#0;class#File#0" expanded="false" />
-            <element signature="method#getAbsoluteFile#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getCanonicalPath#0;class#File#0" expanded="false" />
-            <element signature="method#getCanonicalPath#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getCanonicalFile#0;class#File#0" expanded="false" />
-            <element signature="method#getCanonicalFile#0;class#File#0" expanded="false" />
-            <element signature="method#slashify#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#toURL#0;class#File#0" expanded="false" />
-            <element signature="method#toURL#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#toURI#0;class#File#0" expanded="false" />
-            <element signature="method#toURI#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#canRead#0;class#File#0" expanded="false" />
-            <element signature="method#canRead#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#canWrite#0;class#File#0" expanded="false" />
-            <element signature="method#canWrite#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#exists#0;class#File#0" expanded="false" />
-            <element signature="method#exists#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#isDirectory#0;class#File#0" expanded="false" />
-            <element signature="method#isDirectory#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#isFile#0;class#File#0" expanded="false" />
-            <element signature="method#isFile#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#isHidden#0;class#File#0" expanded="false" />
-            <element signature="method#isHidden#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#lastModified#0;class#File#0" expanded="false" />
-            <element signature="method#lastModified#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#length#0;class#File#0" expanded="false" />
-            <element signature="method#length#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#createNewFile#0;class#File#0" expanded="false" />
-            <element signature="method#createNewFile#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#delete#0;class#File#0" expanded="false" />
-            <element signature="method#delete#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#deleteOnExit#0;class#File#0" expanded="false" />
-            <element signature="method#deleteOnExit#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#list#0;class#File#0" expanded="false" />
-            <element signature="method#list#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#list#1;class#File#0" expanded="false" />
-            <element signature="method#list#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#listFiles#0;class#File#0" expanded="false" />
-            <element signature="method#listFiles#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#listFiles#1;class#File#0" expanded="false" />
-            <element signature="method#listFiles#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#listFiles#2;class#File#0" expanded="false" />
-            <element signature="method#listFiles#2;class#File#0" expanded="false" />
-            <element signature="docComment;method#mkdir#0;class#File#0" expanded="false" />
-            <element signature="method#mkdir#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#mkdirs#0;class#File#0" expanded="false" />
-            <element signature="method#mkdirs#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setLastModified#0;class#File#0" expanded="false" />
-            <element signature="method#setLastModified#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setReadOnly#0;class#File#0" expanded="false" />
-            <element signature="method#setReadOnly#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setWritable#0;class#File#0" expanded="false" />
-            <element signature="method#setWritable#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setWritable#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#setReadable#0;class#File#0" expanded="false" />
-            <element signature="method#setReadable#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setReadable#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#setExecutable#0;class#File#0" expanded="false" />
-            <element signature="method#setExecutable#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#setExecutable#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#canExecute#0;class#File#0" expanded="false" />
-            <element signature="method#canExecute#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#listRoots#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getTotalSpace#0;class#File#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getFreeSpace#0;class#File#0" expanded="false" />
-            <element signature="method#getFreeSpace#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#getUsableSpace#0;class#File#0" expanded="false" />
-            <element signature="method#getUsableSpace#0;class#File#0" expanded="false" />
-            <element signature="class#TempDirectory#0;class#File#0" expanded="false" />
-            <element signature="method#generateFile#0;class#TempDirectory#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#createTempFile#0;class#File#0" expanded="false" />
-            <element signature="method#createTempFile#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#createTempFile#1;class#File#0" expanded="false" />
-            <element signature="method#createTempFile#1;class#File#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#File#0" expanded="false" />
-            <element signature="method#equals#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#File#0" expanded="false" />
-            <element signature="method#writeObject#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#File#0" expanded="false" />
-            <element signature="method#readObject#0;class#File#0" expanded="false" />
-            <element signature="initializer##0;class#File#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#File#0" expanded="false" />
-            <element signature="docComment;method#toPath#0;class#File#0" expanded="false" />
-            <element signature="method#toPath#0;class#File#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2049,13 +1883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2822,18 +2649,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="222" column="5" lean-forward="true" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3058#3059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Soft/Installed/JDK/src.zip!/java/io/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#Console#0" expanded="false" />
+            <element signature="docComment;method#writer#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#reader#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#format#0;class#Console#0" expanded="false" />
+            <element signature="method#format#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#printf#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#readLine#0;class#Console#0" expanded="false" />
+            <element signature="method#readLine#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#readLine#1;class#Console#0" expanded="false" />
+            <element signature="docComment;method#readPassword#0;class#Console#0" expanded="false" />
+            <element signature="method#readPassword#0;class#Console#0" expanded="false" />
+            <element signature="docComment;method#readPassword#1;class#Console#0" expanded="false" />
+            <element signature="docComment;method#flush#0;class#Console#0" expanded="false" />
+            <element signature="method#readline#0;class#Console#0" expanded="false" />
+            <element signature="method#grow#0;class#Console#0" expanded="false" />
+            <element signature="class#LineReader#0;class#Console#0" expanded="false" />
+            <element signature="method#LineReader#0;class#LineReader#0;class#Console#0" expanded="false" />
+            <element signature="method#ready#0;class#LineReader#0;class#Console#0" expanded="false" />
+            <element signature="method#read#0;class#LineReader#0;class#Console#0" expanded="false" />
+            <element signature="e#19952#20013#0" expanded="false" />
+            <element signature="class#20281:20604" expanded="false" />
+            <element signature="method#run#0;class#20281:20604" expanded="false" />
+            <element signature="e#20663#20723#0" expanded="false" />
+            <element signature="class#20820:21327" expanded="false" />
+            <element signature="method#console#0;class#20820:21327" expanded="false" />
+            <element signature="method#charset#0;class#20820:21327" expanded="false" />
+            <element signature="e#21150#21205#0" expanded="false" />
+            <element signature="class#21927:21976" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ocpjp2/$8_IO/UserInteracting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
