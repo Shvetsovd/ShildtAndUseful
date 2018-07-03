@@ -1,6 +1,7 @@
 package company.ocpjp2.$8_IO;
 
 import java.io.*;
+import java.nio.file.Files;
 
 /**
  * Created by user on 26.04.2018.
@@ -117,9 +118,13 @@ class FileUtilities {
 
     private static void printFileTree(File file) {
         System.out.println(file);
-        if (file != null && file.isDirectory()) {
-            for (File subFile : file.listFiles()) {
-                printFileTree(subFile);
+
+        if (file.isDirectory()){
+            File[] subFiles = file.listFiles();
+            if (subFiles != null) {
+                for (File subFile : subFiles) {
+                    printFileTree(subFile);
+                }
             }
         }
     }
@@ -185,7 +190,7 @@ class CopyUtilities {
     }
 
     private static void releaseDir(File file) {
-        if (file == null){
+        if (file == null) {
             return;
         }
         File[] files = file.listFiles();

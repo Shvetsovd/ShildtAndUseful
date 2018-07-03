@@ -79,9 +79,12 @@ public class Tree {
                 return root.left;
             }
             int subValue = getMinValue(root.right);
-            Node subRoot = new Node(null, subValue, null);
+            /*Node subRoot = new Node(null, subValue, null);
             subRoot = addAllValues(root.left, subRoot);
-            root = addAllValues(root.right, subRoot);
+            root = addAllValues(root.right, subRoot);*/
+
+            root.value = subValue;
+            removeRecursive(root.right, subValue);
         }
         return root;
     }

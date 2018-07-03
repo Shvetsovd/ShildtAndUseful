@@ -13,7 +13,7 @@ import java.util.List;
 public class WekReferenceTest {
     public static void main(String[] args) throws InterruptedException {
         List<Reference<BigArray>> list = new ArrayList<>();
-        List<BigArray> listHolder = new ArrayList<>();
+        //List<BigArray> listHolder = new ArrayList<>();
 
         for (int i = 0; i < 1000; i++) {
             BigArray a = new BigArray();

@@ -31,8 +31,8 @@ public class SimpleStatement extends Statement {
 
     @Override
     protected void parse(String statement) throws StatementParseException {
-        String regexFullFormat = "\\s*\\d+\\s*[\\+\\-\\*\\/]\\s*\\d+\\s*";
-        String regexBySign = "[\\+\\-\\*\\/]";
+        String regexFullFormat = "\\s*\\d+\\s*[+\\-*/]\\s*\\d+\\s*";
+        String regexBySign = "[+\\-*/]";
 
         try {
             if (!statement.matches(regexFullFormat)){
